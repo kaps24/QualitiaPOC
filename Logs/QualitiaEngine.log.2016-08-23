@@ -1,0 +1,680 @@
+[23-08-16 17:18:45:045] DEBUG (SauceLabsDataHolder.java:49) - getSauceLabsDataHolder()++
+[23-08-16 17:18:45:045] DEBUG (SauceLabsDataHolder.java:51) - Creating SauceLabsDataHolder object
+[23-08-16 17:18:45:045] DEBUG (SauceLabsDataHolder.java:53) - getSauceLabsDataHolder()-- Returning newly SauceLabsDataHolder object reference.
+[23-08-16 17:18:45:045] DEBUG (QualitiaOffline.java:94) - Current path >>file:/D:/offline/qualitiaoffline-3.11.0.jar!/masterproperties
+[23-08-16 17:18:45:045] DEBUG (QualitiaOffline.java:104) - Config filepath >>./config/qualitia.properties
+[23-08-16 17:18:45:045] DEBUG (QualitiaOffline.java:111) - Calling convertToMap() by passing parameter command line arguments.
+[23-08-16 17:18:45:045] DEBUG (CmdLineProcessor.java:43) - convertToMap()++
+[23-08-16 17:18:45:045] INFO  (CmdLineProcessor.java:44) - Converting command-line arguments i.e. key-value pairs into Map key-value pairs...
+[23-08-16 17:18:45:045] INFO  (CmdLineProcessor.java:62) - Converting command-line arguments i.e. key-value pairs into Map key- value pairs completed.
+[23-08-16 17:18:45:045] DEBUG (CmdLineProcessor.java:63) - convertToMap()-- Returning Map
+[23-08-16 17:18:45:045] DEBUG (CmdLineProcessor.java:152) - removeSauceArguments()++
+[23-08-16 17:18:45:045] DEBUG (CmdLineProcessor.java:165) - removeSauceArguments()--
+[23-08-16 17:18:45:045] ERROR (QualitiaOffline.java:606) - CI tool 'NA' Not Supported. So it execution as DEFAULT
+[23-08-16 17:18:45:045] DEBUG (QualitiaOffline.java:141) - qtmpFilePath >>./temp/d2f8deac5ffa4004ac32fd87d73a206c.qtmp
+[23-08-16 17:18:45:045] DEBUG (callController.java:258) - 
+******************************************************************************************************
+*************************** Qualitia Execution Engine Started in Offline mode *********************************
+******************************************************************************************************
+
+[23-08-16 17:18:45:045] INFO  (callController.java:49) - List of Jars (only) used in classpath: custom action folders not listed here
+qualitiaoffline-3.11.0.jar
+commons-lang3-3.3.jar
+commons-exec-1.2.jar
+commons-io-2.4.jar
+junit-4.8.1.jar
+jxl.jar
+log4j-1.2.17.jar
+mysql-connector-java-5.1.6-bin.jar
+sqljdbc4.jar
+libthrift-0.9.3.jar
+slf4j-api-1.7.13.jar
+slf4j-simple-1.7.13.jar
+json-simple-1.1.1.jar
+selenium-server-standalone-2.53.0.jar
+
+[23-08-16 17:18:45:045] DEBUG (callController.java:359) - List of Arguments :: ./temp/d2f8deac5ffa4004ac32fd87d73a206c.properties
+[23-08-16 17:18:45:045] DEBUG (ConfigFileReader.java:83) - passing filePath : ./temp/d2f8deac5ffa4004ac32fd87d73a206c.properties to FIS
+[23-08-16 17:18:45:045] DEBUG (ConfigFileReader.java:85) - FIS creation successful.
+[23-08-16 17:18:45:045] DEBUG (ConfigFileReader.java:240) - ProjectName=<<manuscript>>
+[23-08-16 17:18:45:045] DEBUG (ConfigFileReader.java:243) - Changed to lower case to support Unix connection. ProjectName=<<manuscript>>
+[23-08-16 17:18:45:045] WARN  (ConfigFileReader.java:344) - Profile Path not provided. Default profile will be used.
+[23-08-16 17:18:45:045] DEBUG (ConfigFileReader.java:352) - HeadlessMode >> False
+[23-08-16 17:18:45:045] INFO  (ConfigFileReader.java:310) - executionhighlight::>>False
+[23-08-16 17:18:46:046] DEBUG (Controller.java:215) - SuiteID=|f720ec1a73224908bd6320d57da99df8|	 SuiteName=|Login-AdminDashboard|	 ScheduleName=||
+[23-08-16 17:18:46:046] DEBUG (Controller.java:249) - tcId=|9724b92641ba49ffa6f7b387cdf07e16|
+tcName=|TC_LA_01_Verify new Job login over Journal Dashboard|
+RunId=|ab1d1fc7fcac4af9afd7ede463375f8e|
+tcSeqId=|1|
+TCFileName=|Login.XML|
+OnError=|Continue|
+[23-08-16 17:18:46:046] DEBUG (Controller.java:539) - Calling getXmlToJavaObject
+[23-08-16 17:18:46:046] DEBUG (Controller.java:544) - End getXmlToJavaObject
+[23-08-16 17:18:46:046] DEBUG (Controller.java:841) - Adding TaskName node for TaskID= |878de9bd4f32472dbbb8d5534355a7f6|	 TaskName= |Authentication popup| to Hashmap TASKNAMEPERTC
+[23-08-16 17:18:46:046] DEBUG (Controller.java:841) - Adding TaskName node for TaskID= |62d24ee0c6c7426c8107892d8324420d|	 TaskName= |62d24ee0c6c7426c8107892d8324420d| to Hashmap TASKNAMEPERTC
+[23-08-16 17:18:46:046] DEBUG (Controller.java:841) - Adding TaskName node for TaskID= |c6939138a8664ea68cb103f16a2ff15f|	 TaskName= |Variable Store| to Hashmap TASKNAMEPERTC
+[23-08-16 17:18:46:046] DEBUG (Controller.java:841) - Adding TaskName node for TaskID= |67d658ab66f0460b9508a0dc5731edd6|	 TaskName= |Enter Login dashboard details| to Hashmap TASKNAMEPERTC
+[23-08-16 17:18:46:046] DEBUG (Controller.java:841) - Adding TaskName node for TaskID= |2e8d3d13e8fa40b98461fb017d0bb3de|	 TaskName= |Alert Handle| to Hashmap TASKNAMEPERTC
+[23-08-16 17:18:46:046] DEBUG (Controller.java:841) - Adding TaskName node for TaskID= |0789017cab3c49908421f37863bb6ecd|	 TaskName= |Verifying data over Journal Dashboard| to Hashmap TASKNAMEPERTC
+[23-08-16 17:18:46:046] DEBUG (Controller.java:841) - Adding TaskName node for TaskID= |40b686ed215a4a9ab35fcb6f8c3812a3|	 TaskName= |Verifying data over Admin Dashboard| to Hashmap TASKNAMEPERTC
+[23-08-16 17:18:46:046] DEBUG (Controller.java:566) - Building Task to Step HashMap
+[23-08-16 17:18:46:046] DEBUG (Controller.java:578) - Building Step HashMap
+[23-08-16 17:18:46:046] DEBUG (Controller.java:710) - TaskSeq= |1| steps mapped
+[23-08-16 17:18:46:046] DEBUG (Controller.java:578) - Building Step HashMap
+[23-08-16 17:18:46:046] DEBUG (Controller.java:710) - TaskSeq= |2| steps mapped
+[23-08-16 17:18:46:046] DEBUG (Controller.java:578) - Building Step HashMap
+[23-08-16 17:18:46:046] DEBUG (Controller.java:710) - TaskSeq= |3| steps mapped
+[23-08-16 17:18:46:046] DEBUG (Controller.java:578) - Building Step HashMap
+[23-08-16 17:18:46:046] DEBUG (Controller.java:710) - TaskSeq= |4| steps mapped
+[23-08-16 17:18:46:046] DEBUG (Controller.java:578) - Building Step HashMap
+[23-08-16 17:18:46:046] DEBUG (Controller.java:710) - TaskSeq= |5| steps mapped
+[23-08-16 17:18:46:046] DEBUG (Controller.java:578) - Building Step HashMap
+[23-08-16 17:18:46:046] DEBUG (Controller.java:710) - TaskSeq= |6| steps mapped
+[23-08-16 17:18:46:046] DEBUG (Controller.java:578) - Building Step HashMap
+[23-08-16 17:18:46:046] DEBUG (Controller.java:710) - TaskSeq= |7| steps mapped
+[23-08-16 17:18:46:046] DEBUG (Controller.java:378) - Test Case Details... 
+TCName=|TC_LA_01_Verify new Job login over Journal Dashboard|
+No. Of Tasks |7|
+[23-08-16 17:18:46:046] DEBUG (Controller.java:401) - taskID=|878de9bd4f32472dbbb8d5534355a7f6|
+taskName=|Authentication popup|
+taskSeq=|1|
+IsSystemTask=|false|
+ParentId=||
+OnError=|Continue|
+[23-08-16 17:18:46:046] DEBUG (Controller.java:406) - No. Of Task Iteration=1
+[23-08-16 17:18:46:046] DEBUG (Controller.java:414) - No. Of Steps=1
+[23-08-16 17:18:46:046] DEBUG (Controller.java:401) - taskID=|62d24ee0c6c7426c8107892d8324420d|
+taskName=||
+taskSeq=|2|
+IsSystemTask=|true|
+ParentId=||
+OnError=|Continue|
+[23-08-16 17:18:46:046] DEBUG (Controller.java:406) - No. Of Task Iteration=1
+[23-08-16 17:18:46:046] DEBUG (Controller.java:414) - No. Of Steps=1
+[23-08-16 17:18:46:046] DEBUG (Controller.java:401) - taskID=|c6939138a8664ea68cb103f16a2ff15f|
+taskName=|Variable Store|
+taskSeq=|3|
+IsSystemTask=|false|
+ParentId=||
+OnError=|Continue|
+[23-08-16 17:18:46:046] DEBUG (Controller.java:406) - No. Of Task Iteration=1
+[23-08-16 17:18:46:046] DEBUG (Controller.java:414) - No. Of Steps=5
+[23-08-16 17:18:46:046] DEBUG (Controller.java:401) - taskID=|67d658ab66f0460b9508a0dc5731edd6|
+taskName=|Enter Login dashboard details|
+taskSeq=|4|
+IsSystemTask=|false|
+ParentId=||
+OnError=|Continue|
+[23-08-16 17:18:46:046] DEBUG (Controller.java:406) - No. Of Task Iteration=1
+[23-08-16 17:18:46:046] DEBUG (Controller.java:414) - No. Of Steps=10
+[23-08-16 17:18:46:046] DEBUG (Controller.java:401) - taskID=|2e8d3d13e8fa40b98461fb017d0bb3de|
+taskName=|Alert Handle|
+taskSeq=|5|
+IsSystemTask=|false|
+ParentId=||
+OnError=|Continue|
+[23-08-16 17:18:46:046] DEBUG (Controller.java:406) - No. Of Task Iteration=1
+[23-08-16 17:18:46:046] DEBUG (Controller.java:414) - No. Of Steps=2
+[23-08-16 17:18:46:046] DEBUG (Controller.java:401) - taskID=|0789017cab3c49908421f37863bb6ecd|
+taskName=|Verifying data over Journal Dashboard|
+taskSeq=|6|
+IsSystemTask=|false|
+ParentId=||
+OnError=|Continue|
+[23-08-16 17:18:46:046] DEBUG (Controller.java:406) - No. Of Task Iteration=1
+[23-08-16 17:18:46:046] DEBUG (Controller.java:414) - No. Of Steps=5
+[23-08-16 17:18:46:046] DEBUG (Controller.java:401) - taskID=|40b686ed215a4a9ab35fcb6f8c3812a3|
+taskName=|Verifying data over Admin Dashboard|
+taskSeq=|7|
+IsSystemTask=|false|
+ParentId=||
+OnError=|Continue|
+[23-08-16 17:18:46:046] DEBUG (Controller.java:406) - No. Of Task Iteration=1
+[23-08-16 17:18:46:046] DEBUG (Controller.java:414) - No. Of Steps=6
+[23-08-16 17:18:46:046] DEBUG (Controller.java:919) - Calling createReportTemplates
+[23-08-16 17:18:46:046] DEBUG (Controller.java:1127) - TC Count=1
+[23-08-16 17:18:46:046] DEBUG (Controller.java:1139) - strThreads >>
+[23-08-16 17:18:46:046] DEBUG (Controller.java:1143) - Image thread count >>2
+[23-08-16 17:18:46:046] INFO  (SnapshotWriter.java:37) - Inside Run...
+[23-08-16 17:18:46:046] INFO  (SnapshotWriter.java:37) - Inside Run...
+[23-08-16 17:18:46:046] DEBUG (Controller.java:1161) - Before running QualitiaTestCase.class
+[23-08-16 17:18:46:046] DEBUG (QualitiaSelenium.java:173) - Launching firefox
+[23-08-16 17:18:46:046] DEBUG (WebDriverHandler.java:58) - getWebDriver()++
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:73) - getDesiredCapabilitiesHandler()++
+[23-08-16 17:18:46:046] INFO  (DesiredCapabilitiesHandler.java:75) - Creating DesiredCapabilitiesHandler object...
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:61) - DesiredCapabilitiesHandler()++
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:63) - DesiredCapabilitiesHandler()--
+[23-08-16 17:18:46:046] INFO  (DesiredCapabilitiesHandler.java:77) - DesiredCapabilitiesHandler object object created.
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:78) - getDesiredCapabilitiesHandler()-- Returning DesiredCapabilitiesHandler object...
+[23-08-16 17:18:46:046] INFO  (WebDriverHandler.java:65) - Identifying execution environment....
+[23-08-16 17:18:46:046] DEBUG (WebDriverHandler.java:115) - Calling getDesiredCapabilities() by passing parameters: Environment Type=LOCAL, browserName=firefox
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:95) - getDesiredCapabilities()++
+[23-08-16 17:18:46:046] INFO  (DesiredCapabilitiesHandler.java:107) - Creating DesiredCapabilities object and assigning capabilities to it...
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:111) - Calling setDCAPFilePaths()
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:216) - setDCAPFilePaths()++
+[23-08-16 17:18:46:046] INFO  (DesiredCapabilitiesHandler.java:221) - firefox DCAP file path= ./config/firefoxdc.properties
+[23-08-16 17:18:46:046] INFO  (DesiredCapabilitiesHandler.java:223) - firefox master DCAP file path= file:/D:/offline/qualitiaoffline-3.11.0.jar!/masterproperties/firefoxmasterdc.properties
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:225) - setDCAPFilePaths()--
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:114) - Calling assignDesiredCapabilitiesObject()
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:235) - assignDesiredCapabilitiesObject()++
+[23-08-16 17:18:46:046] INFO  (DesiredCapabilitiesHandler.java:239) - DesiredCapabilities object is created for Firefox.
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:274) - setDesiredCapabilitiesProperties()++
+[23-08-16 17:18:46:046] DEBUG (PropertiesReader.java:42) - getPropertiesReader()++
+[23-08-16 17:18:46:046] DEBUG (PropertiesReader.java:31) - PropertiesReader()++
+[23-08-16 17:18:46:046] DEBUG (PropertiesReader.java:32) - PropertiesReader()--
+[23-08-16 17:18:46:046] DEBUG (PropertiesReader.java:45) - getPropertiesReader()-- Returning newly created PropertiesReader object reference.
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:286) - Calling getMap() by passing parameter user specified capabilities file
+[23-08-16 17:18:46:046] DEBUG (PropertiesReader.java:54) - getMap()++
+[23-08-16 17:18:46:046] INFO  (PropertiesReader.java:56) - Reading properties from file D:\offline\.\config\firefoxdc.properties and setting them in in-memory Map...
+[23-08-16 17:18:46:046] DEBUG (PropertiesReader.java:101) - getMap()++
+[23-08-16 17:18:46:046] INFO  (PropertiesReader.java:122) - Getting properties in Map completed.
+[23-08-16 17:18:46:046] DEBUG (PropertiesReader.java:123) - getMap()-- Returning properties Map
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:293) - Calling getMap() by passing expected capabilities file
+[23-08-16 17:18:46:046] DEBUG (PropertiesReader.java:101) - getMap()++
+[23-08-16 17:18:46:046] INFO  (PropertiesReader.java:122) - Getting properties in Map completed.
+[23-08-16 17:18:46:046] DEBUG (PropertiesReader.java:123) - getMap()-- Returning properties Map
+[23-08-16 17:18:46:046] DEBUG (PropertiesValidator.java:40) - getValidator()++
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:42) - Creating Validator class object
+[23-08-16 17:18:46:046] DEBUG (PropertiesValidator.java:29) - Validator()++
+[23-08-16 17:18:46:046] DEBUG (PropertiesValidator.java:30) - Validator()--
+[23-08-16 17:18:46:046] DEBUG (PropertiesValidator.java:44) - getValidator()-- Returning Validator object reference.
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:310) - Calling validateProperties() by passing parameters: user capabilities Map and expected capabilities Map
+[23-08-16 17:18:46:046] DEBUG (PropertiesValidator.java:63) - validateProperties()++
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:64) - Validating properties user properties against expected properties...
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key firefox_binary present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key acceptSslCerts present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key elementScrollBehavior present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key javascriptEnabled present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key logtype_browser_level present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key logtype_profiler_level present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key version present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key noProxy present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key webdriver.load.strategy present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key logtype_performance_level present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key nativeEvents present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key custom_use_loggingpreferences present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key applicationCacheEnabled present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key socksPassword present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key custom_use_proxy present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key webdriver.log.file present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key webdriver_assume_untrusted_issuer present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key proxyAutoconfigUrl present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key rotatable present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key webdriver_firefox_port present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key locationContextEnabled present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key socksUsername present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key cssSelectorsEnabled present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key logtype_server_level present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key databaseEnabled present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key handlesAlerts present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key proxyType present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key browserConnectionEnabled present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key webStorageEnabled present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key custom_proxy_address present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key logtype_driver_level present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key logtype_client_level present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key custom_use_firefox_profile present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key webdriver.log.driver present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:72) - The key webdriver_accept_untrusted_certs present in expected properties but not in user properties.
+[23-08-16 17:18:46:046] INFO  (PropertiesValidator.java:81) - Validation completed
+[23-08-16 17:18:46:046] DEBUG (PropertiesValidator.java:82) - validateProperties()-- Returning validated properties Map
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:324) - Calling removeLoggingPreferencesCapabilities() by passing parameter validatedCapabilities Map
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:916) - removeLoggingPreferencesCapabilities()++
+[23-08-16 17:18:46:046] INFO  (DesiredCapabilitiesHandler.java:918) - Removing Logging Preferences capabilities from validatedCapabilities Map
+[23-08-16 17:18:46:046] INFO  (DesiredCapabilitiesHandler.java:954) - Removing Logging Preferences capabilities from validatedCapabilities Map completed.
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:955) - removeLoggingPreferencesCapabilities()--
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:336) - Calling removeProxyCapabilities() by passing parameter: validatedCapabilities Map
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:526) - removeProxyCapabilities()++
+[23-08-16 17:18:46:046] INFO  (DesiredCapabilitiesHandler.java:527) - Removing Proxy capabilities from validatedCapabilities Map...
+[23-08-16 17:18:46:046] INFO  (DesiredCapabilitiesHandler.java:563) - Proxy capabilities removed from validatedCapabilities Map.
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:564) - removeProxyCapabilities()--
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:351) - Calling setFirefoxProfileCapabilities() by passing parameters: validatedCapabilities Map and local profileFile
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:967) - setFirefoxProfileCapabilities()++
+[23-08-16 17:18:46:046] INFO  (DesiredCapabilitiesHandler.java:968) - Setting firefox profile capabilities...
+[23-08-16 17:18:46:046] INFO  (DesiredCapabilitiesHandler.java:1016) - Setting firefox profile capabilities completed.
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:1017) - setFirefoxProfileCapabilities()--
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:356) - Calling removeFirefoxProfileCapabilities() by passing parameter: validatedCapabilities Map
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:1027) - removeFirefoxProfileCapabilities()++
+[23-08-16 17:18:46:046] INFO  (DesiredCapabilitiesHandler.java:1028) - Removing Firefox profile capabilities from validatedCapabilities Map.
+[23-08-16 17:18:46:046] INFO  (DesiredCapabilitiesHandler.java:1063) - Removing Firefox profile capabilities from validatedCapabilities Map completed.
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:1064) - removeFirefoxProfileCapabilities()--
+[23-08-16 17:18:46:046] INFO  (DesiredCapabilitiesHandler.java:387) - Setting remaining desired capabilities...
+[23-08-16 17:18:46:046] INFO  (DesiredCapabilitiesHandler.java:393) - unexpectedAlertBehaviour = ignore
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:411) - setDesiredCapabilitiesProperties()--
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:129) - Desired capabilities set by user =====> {firefox_profile=org.openqa.selenium.firefox.FirefoxProfile@2d6a15c5, platform=ANY, browserName=firefox, unexpectedAlertBehaviour=ignore, version=}
+[23-08-16 17:18:46:046] DEBUG (DesiredCapabilitiesHandler.java:131) - getDesiredCapabilities()--  Returning DesiredCapabilitities object
+[23-08-16 17:18:46:046] DEBUG (WebDriverHandler.java:118) - Calling getLocalWebDriver() by passing parameters: browserName=firefox and desiredCapabilities
+[23-08-16 17:18:46:046] DEBUG (WebDriverHandler.java:197) - getLocalWebDriver()++
+[23-08-16 17:18:46:046] INFO  (WebDriverHandler.java:198) - Creating WebDriver object for browser: firefox
+[23-08-16 17:19:33:033] ERROR (WebDriverHandler.java:236) - WebDriver object creation failed. Test execution aborted.
+org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+e":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Trend Micro Osprey Firefox Extension","description":"Check the safety of websites, hyperlinks, and wireless network connections.","creator":"Trend Micro","homepageURL":"http://www.trendsecure.com/"},"visible":true,"active":false,"userDisabled":true,"appDisabled":true,"descriptor":"C:\\Program Files (x86)\\Trend Micro\\OfficeScan Client\\FirefoxExtensionOsprey","installDate":1471854446602,"updateDate":1471854446602,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":356001,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.5","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0,"seen":true}
+1471952927960	DeferredSave.extensions.json	DEBUG	Save changes
+1471952927960	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1471952927961	addons.xpi-utils	DEBUG	Updating add-on states
+1471952927961	addons.xpi-utils	DEBUG	Writing add-ons list
+1471952927962	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1471952927963	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.1
+1471952927963	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1471952927963	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.4
+1471952927964	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1471952927964	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.4.4
+1471952927979	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1471952927979	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1471952927979	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1471952927979	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1471952927979	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1471952927979	addons.manager	DEBUG	Starting provider: GMPProvider
+1471952927984	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1471952927984	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1471952927984	addons.manager	DEBUG	Starting provider: PluginProvider
+1471952927984	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1471952927984	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1471952927984	addons.manager	DEBUG	Completed startup sequence
+1471952929643	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1471952929644	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1471952929644	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1471952929961	DeferredSave.extensions.json	DEBUG	Write succeeded
+1471952929962	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1471952929962	DeferredSave.extensions.json	DEBUG	Starting timer
+1471952929968	addons.repository	DEBUG	No addons.json found.
+1471952929968	DeferredSave.addons.json	DEBUG	Save changes
+1471952929970	DeferredSave.addons.json	DEBUG	Starting timer
+1471952929991	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1471952929991	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1471952929991	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1471952929994	DeferredSave.extensions.json	DEBUG	Starting write
+1471952930008	DeferredSave.extensions.json	DEBUG	Write succeeded
+1471952930020	DeferredSave.addons.json	DEBUG	Starting write
+1471952930173	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'deinpuma1171', ip: '10.113.5.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:129)
+	at com.webdriverfw.driverhandler.WebDriverHandler.getLocalWebDriver(WebDriverHandler.java:202)
+	at com.webdriverfw.driverhandler.WebDriverHandler.getWebDriver(WebDriverHandler.java:119)
+	at com.webdriverfw.Libraries.FirefoxLauncher.launch(FirefoxLauncher.java:44)
+	at com.webdriverfw.Libraries.QualitiaSelenium.webdriverStartUp(QualitiaSelenium.java:174)
+	at com.webdriverfw.Libraries.QualitiaSelenium.startUp(QualitiaSelenium.java:64)
+	at com.webdriverfw.Libraries.QualitiaTestCaseBase.setUp(QualitiaTestCaseBase.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:27)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:127)
+	at org.junit.runner.JUnitCore.runClasses(JUnitCore.java:76)
+	at com.webdriverfw.Driver.Controller.execute(Controller.java:1178)
+	at com.webdriverfw.Driver.callController.executeOffline(callController.java:282)
+	at com.webdriverfw.Driver.QualitiaOffline.webdriverExecution(QualitiaOffline.java:764)
+	at com.webdriverfw.Driver.QualitiaOffline.main(QualitiaOffline.java:148)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+e":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Trend Micro Osprey Firefox Extension","description":"Check the safety of websites, hyperlinks, and wireless network connections.","creator":"Trend Micro","homepageURL":"http://www.trendsecure.com/"},"visible":true,"active":false,"userDisabled":true,"appDisabled":true,"descriptor":"C:\\Program Files (x86)\\Trend Micro\\OfficeScan Client\\FirefoxExtensionOsprey","installDate":1471854446602,"updateDate":1471854446602,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":356001,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.5","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0,"seen":true}
+1471952927960	DeferredSave.extensions.json	DEBUG	Save changes
+1471952927960	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1471952927961	addons.xpi-utils	DEBUG	Updating add-on states
+1471952927961	addons.xpi-utils	DEBUG	Writing add-ons list
+1471952927962	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1471952927963	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.1
+1471952927963	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1471952927963	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.4
+1471952927964	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1471952927964	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.4.4
+1471952927979	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1471952927979	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1471952927979	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1471952927979	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1471952927979	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1471952927979	addons.manager	DEBUG	Starting provider: GMPProvider
+1471952927984	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1471952927984	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1471952927984	addons.manager	DEBUG	Starting provider: PluginProvider
+1471952927984	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1471952927984	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1471952927984	addons.manager	DEBUG	Completed startup sequence
+1471952929643	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1471952929644	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1471952929644	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1471952929961	DeferredSave.extensions.json	DEBUG	Write succeeded
+1471952929962	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1471952929962	DeferredSave.extensions.json	DEBUG	Starting timer
+1471952929968	addons.repository	DEBUG	No addons.json found.
+1471952929968	DeferredSave.addons.json	DEBUG	Save changes
+1471952929970	DeferredSave.addons.json	DEBUG	Starting timer
+1471952929991	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1471952929991	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1471952929991	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1471952929994	DeferredSave.extensions.json	DEBUG	Starting write
+1471952930008	DeferredSave.extensions.json	DEBUG	Write succeeded
+1471952930020	DeferredSave.addons.json	DEBUG	Starting write
+1471952930173	DeferredSave.addons.json	DEBUG	Write succeeded
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+	... 44 more
+[23-08-16 17:19:33:033] ERROR (QualitiaSelenium.java:230) - Error launching browser
+com.webdriverfw.exceptions.SeNotRunningException: WebDriver object creation failed. Test execution aborted.
+	at com.webdriverfw.driverhandler.WebDriverHandler.getLocalWebDriver(WebDriverHandler.java:238)
+	at com.webdriverfw.driverhandler.WebDriverHandler.getWebDriver(WebDriverHandler.java:119)
+	at com.webdriverfw.Libraries.FirefoxLauncher.launch(FirefoxLauncher.java:44)
+	at com.webdriverfw.Libraries.QualitiaSelenium.webdriverStartUp(QualitiaSelenium.java:174)
+	at com.webdriverfw.Libraries.QualitiaSelenium.startUp(QualitiaSelenium.java:64)
+	at com.webdriverfw.Libraries.QualitiaTestCaseBase.setUp(QualitiaTestCaseBase.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:27)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:127)
+	at org.junit.runner.JUnitCore.runClasses(JUnitCore.java:76)
+	at com.webdriverfw.Driver.Controller.execute(Controller.java:1178)
+	at com.webdriverfw.Driver.callController.executeOffline(callController.java:282)
+	at com.webdriverfw.Driver.QualitiaOffline.webdriverExecution(QualitiaOffline.java:764)
+	at com.webdriverfw.Driver.QualitiaOffline.main(QualitiaOffline.java:148)
+Caused by: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+e":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Trend Micro Osprey Firefox Extension","description":"Check the safety of websites, hyperlinks, and wireless network connections.","creator":"Trend Micro","homepageURL":"http://www.trendsecure.com/"},"visible":true,"active":false,"userDisabled":true,"appDisabled":true,"descriptor":"C:\\Program Files (x86)\\Trend Micro\\OfficeScan Client\\FirefoxExtensionOsprey","installDate":1471854446602,"updateDate":1471854446602,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":356001,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.5","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0,"seen":true}
+1471952927960	DeferredSave.extensions.json	DEBUG	Save changes
+1471952927960	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1471952927961	addons.xpi-utils	DEBUG	Updating add-on states
+1471952927961	addons.xpi-utils	DEBUG	Writing add-ons list
+1471952927962	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1471952927963	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.1
+1471952927963	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1471952927963	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.4
+1471952927964	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1471952927964	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.4.4
+1471952927979	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1471952927979	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1471952927979	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1471952927979	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1471952927979	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1471952927979	addons.manager	DEBUG	Starting provider: GMPProvider
+1471952927984	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1471952927984	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1471952927984	addons.manager	DEBUG	Starting provider: PluginProvider
+1471952927984	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1471952927984	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1471952927984	addons.manager	DEBUG	Completed startup sequence
+1471952929643	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1471952929644	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1471952929644	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1471952929961	DeferredSave.extensions.json	DEBUG	Write succeeded
+1471952929962	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1471952929962	DeferredSave.extensions.json	DEBUG	Starting timer
+1471952929968	addons.repository	DEBUG	No addons.json found.
+1471952929968	DeferredSave.addons.json	DEBUG	Save changes
+1471952929970	DeferredSave.addons.json	DEBUG	Starting timer
+1471952929991	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1471952929991	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1471952929991	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1471952929994	DeferredSave.extensions.json	DEBUG	Starting write
+1471952930008	DeferredSave.extensions.json	DEBUG	Write succeeded
+1471952930020	DeferredSave.addons.json	DEBUG	Starting write
+1471952930173	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'deinpuma1171', ip: '10.113.5.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:129)
+	at com.webdriverfw.driverhandler.WebDriverHandler.getLocalWebDriver(WebDriverHandler.java:202)
+	... 38 more
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+e":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Trend Micro Osprey Firefox Extension","description":"Check the safety of websites, hyperlinks, and wireless network connections.","creator":"Trend Micro","homepageURL":"http://www.trendsecure.com/"},"visible":true,"active":false,"userDisabled":true,"appDisabled":true,"descriptor":"C:\\Program Files (x86)\\Trend Micro\\OfficeScan Client\\FirefoxExtensionOsprey","installDate":1471854446602,"updateDate":1471854446602,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":356001,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.5","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0,"seen":true}
+1471952927960	DeferredSave.extensions.json	DEBUG	Save changes
+1471952927960	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1471952927961	addons.xpi-utils	DEBUG	Updating add-on states
+1471952927961	addons.xpi-utils	DEBUG	Writing add-ons list
+1471952927962	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1471952927963	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.1
+1471952927963	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1471952927963	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.4
+1471952927964	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1471952927964	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.4.4
+1471952927979	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1471952927979	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1471952927979	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1471952927979	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1471952927979	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1471952927979	addons.manager	DEBUG	Starting provider: GMPProvider
+1471952927984	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1471952927984	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1471952927984	addons.manager	DEBUG	Starting provider: PluginProvider
+1471952927984	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1471952927984	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1471952927984	addons.manager	DEBUG	Completed startup sequence
+1471952929643	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1471952929644	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1471952929644	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1471952929961	DeferredSave.extensions.json	DEBUG	Write succeeded
+1471952929962	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1471952929962	DeferredSave.extensions.json	DEBUG	Starting timer
+1471952929968	addons.repository	DEBUG	No addons.json found.
+1471952929968	DeferredSave.addons.json	DEBUG	Save changes
+1471952929970	DeferredSave.addons.json	DEBUG	Starting timer
+1471952929991	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1471952929991	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1471952929991	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1471952929994	DeferredSave.extensions.json	DEBUG	Starting write
+1471952930008	DeferredSave.extensions.json	DEBUG	Write succeeded
+1471952930020	DeferredSave.addons.json	DEBUG	Starting write
+1471952930173	DeferredSave.addons.json	DEBUG	Write succeeded
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+	... 44 more
+[23-08-16 17:19:33:033] ERROR (QualitiaSelenium.java:278) - Driver null in clean up. The Driver might not be initialized or the launcher might have thrown exception.
+[23-08-16 17:19:33:033] ERROR (Controller.java:1188) - Failures returned by QualitiaTestCase Junit runner.. 
+[23-08-16 17:19:33:033] ERROR (Controller.java:1189) - Error launching browser
+
+[23-08-16 17:19:33:033] FATAL (callController.java:294) - Execution aborted and will now exit
+[23-08-16 17:19:33:033] DEBUG (callController.java:317) - 
+******************************************************************************************************
+**************************** Qualitia Execution Core Engine Shut Down *********************************
+******************************************************************************************************
+
+
+
+[23-08-16 17:19:33:033] DEBUG (SnapshotWriter.java:47) - END of queue >>true
+[23-08-16 17:19:33:033] DEBUG (callController.java:331) - Before closeReportTxt.
+[23-08-16 17:19:33:033] DEBUG (SnapshotWriter.java:47) - END of queue >>true
+[23-08-16 17:19:33:033] DEBUG (callController.java:333) - After closeReportTxt.
+[23-08-16 17:19:33:033] DEBUG (callController.java:342) - Before closeDebugAndExecLogs()
+[23-08-16 17:19:33:033] DEBUG (callController.java:344) - After closeDebugAndExecLogs()
+[23-08-16 17:19:33:033] ERROR (QualitiaOffline.java:774) - Error in Selenium Webdriver execution. Please validate BrowserType, SeleniumServerpath and other configuration properties for correct values.
+com.webdriverfw.exceptions.SeNotRunningException: Error launching browser
+	at com.webdriverfw.Libraries.QualitiaSelenium.webdriverStartUp(QualitiaSelenium.java:231)
+	at com.webdriverfw.Libraries.QualitiaSelenium.startUp(QualitiaSelenium.java:64)
+	at com.webdriverfw.Libraries.QualitiaTestCaseBase.setUp(QualitiaTestCaseBase.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:27)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:127)
+	at org.junit.runner.JUnitCore.runClasses(JUnitCore.java:76)
+	at com.webdriverfw.Driver.Controller.execute(Controller.java:1178)
+	at com.webdriverfw.Driver.callController.executeOffline(callController.java:282)
+	at com.webdriverfw.Driver.QualitiaOffline.webdriverExecution(QualitiaOffline.java:764)
+	at com.webdriverfw.Driver.QualitiaOffline.main(QualitiaOffline.java:148)
+Caused by: com.webdriverfw.exceptions.SeNotRunningException: WebDriver object creation failed. Test execution aborted.
+	at com.webdriverfw.driverhandler.WebDriverHandler.getLocalWebDriver(WebDriverHandler.java:238)
+	at com.webdriverfw.driverhandler.WebDriverHandler.getWebDriver(WebDriverHandler.java:119)
+	at com.webdriverfw.Libraries.FirefoxLauncher.launch(FirefoxLauncher.java:44)
+	at com.webdriverfw.Libraries.QualitiaSelenium.webdriverStartUp(QualitiaSelenium.java:174)
+	... 35 more
+Caused by: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+e":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Trend Micro Osprey Firefox Extension","description":"Check the safety of websites, hyperlinks, and wireless network connections.","creator":"Trend Micro","homepageURL":"http://www.trendsecure.com/"},"visible":true,"active":false,"userDisabled":true,"appDisabled":true,"descriptor":"C:\\Program Files (x86)\\Trend Micro\\OfficeScan Client\\FirefoxExtensionOsprey","installDate":1471854446602,"updateDate":1471854446602,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":356001,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.5","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0,"seen":true}
+1471952927960	DeferredSave.extensions.json	DEBUG	Save changes
+1471952927960	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1471952927961	addons.xpi-utils	DEBUG	Updating add-on states
+1471952927961	addons.xpi-utils	DEBUG	Writing add-ons list
+1471952927962	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1471952927963	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.1
+1471952927963	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1471952927963	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.4
+1471952927964	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1471952927964	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.4.4
+1471952927979	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1471952927979	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1471952927979	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1471952927979	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1471952927979	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1471952927979	addons.manager	DEBUG	Starting provider: GMPProvider
+1471952927984	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1471952927984	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1471952927984	addons.manager	DEBUG	Starting provider: PluginProvider
+1471952927984	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1471952927984	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1471952927984	addons.manager	DEBUG	Completed startup sequence
+1471952929643	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1471952929644	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1471952929644	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1471952929961	DeferredSave.extensions.json	DEBUG	Write succeeded
+1471952929962	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1471952929962	DeferredSave.extensions.json	DEBUG	Starting timer
+1471952929968	addons.repository	DEBUG	No addons.json found.
+1471952929968	DeferredSave.addons.json	DEBUG	Save changes
+1471952929970	DeferredSave.addons.json	DEBUG	Starting timer
+1471952929991	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1471952929991	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1471952929991	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1471952929994	DeferredSave.extensions.json	DEBUG	Starting write
+1471952930008	DeferredSave.extensions.json	DEBUG	Write succeeded
+1471952930020	DeferredSave.addons.json	DEBUG	Starting write
+1471952930173	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'deinpuma1171', ip: '10.113.5.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:129)
+	at com.webdriverfw.driverhandler.WebDriverHandler.getLocalWebDriver(WebDriverHandler.java:202)
+	... 38 more
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+e":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Trend Micro Osprey Firefox Extension","description":"Check the safety of websites, hyperlinks, and wireless network connections.","creator":"Trend Micro","homepageURL":"http://www.trendsecure.com/"},"visible":true,"active":false,"userDisabled":true,"appDisabled":true,"descriptor":"C:\\Program Files (x86)\\Trend Micro\\OfficeScan Client\\FirefoxExtensionOsprey","installDate":1471854446602,"updateDate":1471854446602,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":356001,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.5","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0,"seen":true}
+1471952927960	DeferredSave.extensions.json	DEBUG	Save changes
+1471952927960	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1471952927961	addons.xpi-utils	DEBUG	Updating add-on states
+1471952927961	addons.xpi-utils	DEBUG	Writing add-ons list
+1471952927962	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1471952927963	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.1
+1471952927963	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1471952927963	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.4
+1471952927964	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1471952927964	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.4.4
+1471952927979	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1471952927979	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1471952927979	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1471952927979	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1471952927979	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1471952927979	addons.manager	DEBUG	Starting provider: GMPProvider
+1471952927984	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1471952927984	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1471952927984	addons.manager	DEBUG	Starting provider: PluginProvider
+1471952927984	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1471952927984	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1471952927984	addons.manager	DEBUG	Completed startup sequence
+1471952929643	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1471952929644	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1471952929644	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1471952929961	DeferredSave.extensions.json	DEBUG	Write succeeded
+1471952929962	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1471952929962	DeferredSave.extensions.json	DEBUG	Starting timer
+1471952929968	addons.repository	DEBUG	No addons.json found.
+1471952929968	DeferredSave.addons.json	DEBUG	Save changes
+1471952929970	DeferredSave.addons.json	DEBUG	Starting timer
+1471952929991	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1471952929991	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1471952929991	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1471952929994	DeferredSave.extensions.json	DEBUG	Starting write
+1471952930008	DeferredSave.extensions.json	DEBUG	Write succeeded
+1471952930020	DeferredSave.addons.json	DEBUG	Starting write
+1471952930173	DeferredSave.addons.json	DEBUG	Write succeeded
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+	... 44 more
+[23-08-16 17:19:33:033] ERROR (QualitiaOffline.java:185) - Qualitia Offline Exiting due to error in execution
+[23-08-16 17:19:33:033] DEBUG (QualitiaOffline.java:1227) - Report.txt path >>C:\ProgramData\Qualitia\Logs\deinpuma1171\admin\manuscript\1.01\1.01\IterationNumber_46/report.txt
+[23-08-16 17:19:33:033] DEBUG (QualitiaOffline.java:1255) - Start Merge
+[23-08-16 17:19:33:033] DEBUG (QualitiaOffline.java:1309) - End Merge
+[23-08-16 17:19:33:033] DEBUG (QualitiaOffline.java:1310) - Start Copy File
+[23-08-16 17:19:33:033] DEBUG (QualitiaOffline.java:1314) - End Copy File

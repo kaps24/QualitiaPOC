@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<EnvironmentVariables>
+  <variable Name="Login_Dashboard_URL" Datatype="String">
+    <Value>http://192.168.84.68/ManuscriptScreening/ManuscriptLogin/JournalLogin</Value>
+  </variable>
+  <variable Name="Username" Datatype="String">
+    <Value>mali02</Value>
+  </variable>
+  <variable Name="Password" Datatype="String">
+    <Value>malia87</Value>
+  </variable>
+  <variable Name="Admin_Dashboard_URL" Datatype="String">
+    <Value>http://192.168.84.68/ManuscriptScreening/AdminDashboard/AdminDashBoard</Value>
+  </variable>
+</EnvironmentVariables>

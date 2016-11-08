@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ElementDictionary>
+	<Element Name="INPUT" value="name;id;class;value"></Element>
+	<Element Name="A" value="name;href;id;title;class;text"></Element>
+	<Element Name="P" value="text;id;class"></Element>
+	<Element Name="LI" value="id;class;text"></Element>
+	<Element Name="UL" value="id;class"></Element>
+	<Element Name="OL" value="id;class"></Element>
+	<Element Name="SPAN" value="id;class"></Element>
+	<Element Name="DIV" value="id;class"></Element>
+	<Element Name="TABLE" value="id;class"></Element>
+	<Element Name="TR" value="id;class"></Element>
+	<Element Name="TD" value="id;class"></Element>
+	<Element Name="FORM" value="action;class"></Element>
+	<Element Name="LABEL" value="id;class;text"></Element>
+	<Element Name="TBODY" value="id;class"></Element>
+	<Element Name="IMG" value="name;alt;src;id;class"></Element>
+	<Element Name="FRAME" value="name;src;id"></Element>
+	<Element Name="IFRAME" value="name;src;id"></Element>
+	<Element Name="BUTTON" value="name;id;class"></Element>
+	<Element Name="SELECT" value="name;id;class"></Element>
+	<Element Name="GLOBAL" value="id;class"></Element>
+</ElementDictionary>

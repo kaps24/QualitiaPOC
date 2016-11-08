@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TC ScenarioName="Login-AdminDashboard" TCName="TC_LA_06_Test On Hold job not editable on Login page" ManualTCID="TC_LA_06" RunID="e52b23d7e5cf4dcbbf7825f18b8889db" TCSeqID="1" StartTime="2016-08-16 17:08:26.484" endTime="2016-08-16 17:09:02.722" imgType="png" autoSelectFrame="0" Status="-1" isError="false" OS="WINDOWS" OSVersion="WINDOWS 7" Browser="FIREFOX" BrowserVersion="43.0.1">
+    <TCIteration IterationNo="1" TCDataSetTag="" ExecutionTime="00:00:36.237" Status="0">
+        <Task Id="65d9837bc28c45c5acc1a98ffa5697de" TaskSeq="1" Name="" IsSystemTask="true" OnError="Continue" ParentID="" LineNumber="" ExecutionTime="00:00:04.362" Status="0">
+            <TaskIteration IterationNo="1" ExecutionTime="00:00:04.362" Status="0">
+                <Step Id="1" StepSeq="1" object="" Action="StoreVariable" Parent_ID="" LineNumber="1" ExecutionTime="00:00:04.362" Status="0">
+                    <Param Name="MSNumber_Value">MSNumber_Value</Param>
+                    <Param Name="MSIDdata">QA120811</Param>
+                </Step>
+            </TaskIteration>
+        </Task>
+        <Task Id="2a7aec668dee426ba9124eecc8dae2fd" TaskSeq="2" Name="Authentication for AdminDashboard" IsSystemTask="false" OnError="Continue" ParentID="" LineNumber="2" ExecutionTime="00:00:21.408" Status="0">
+            <TaskIteration IterationNo="1" ExecutionTime="00:00:21.408" Status="0">
+                <Step Id="2" StepSeq="1" object="" Action="WindowsAuthenticationLogin" Parent_ID="" LineNumber="3" ExecutionTime="00:00:21.267" Status="0">
+                    <Param Name="&quot;{Admin_Dashboard_URL}&quot;">{Admin_Dashboard_URL}</Param>
+                    <Param Name="&quot;{Username}&quot;">{Username}</Param>
+                    <Param Name="&quot;{Password}&quot;">{Password}</Param>
+                </Step>
+                <Step Id="3" StepSeq="2" object="" Action="MaximizeBrowser" Parent_ID="" LineNumber="4" ExecutionTime="00:00:00.141" Status="0"/>
+            </TaskIteration>
+        </Task>
+        <Task Id="b8f6ed82ac6d434d85f9b51916a575b9" TaskSeq="3" Name="" IsSystemTask="true" OnError="Continue" ParentID="" LineNumber="" ExecutionTime="00:00:05.382" Status="0">
+            <TaskIteration IterationNo="1" ExecutionTime="00:00:05.382" Status="0">
+                <Step Id="1" StepSeq="1" object="MSID_Admin_Dashboard" Action="ClickAndWait" Parent_ID="" LineNumber="5" ExecutionTime="00:00:05.382" Status="0"/>
+            </TaskIteration>
+        </Task>
+        <Task Id="779380644f4c493cbd9c4c5910d673e5" TaskSeq="4" Name="" IsSystemTask="true" OnError="Continue" ParentID="" LineNumber="" ExecutionTime="00:00:01.372" Status="0">
+            <TaskIteration IterationNo="1" ExecutionTime="00:00:01.372" Status="0">
+                <Step Id="1" StepSeq="1" object="HoldId" Action="ClickAndWait" Parent_ID="" LineNumber="6" ExecutionTime="00:00:01.372" Status="0"/>
+            </TaskIteration>
+        </Task>
+        <Task Id="2cf5ccad7faf4e3191d758375ed7466d" TaskSeq="5" Name="" IsSystemTask="true" OnError="Continue" ParentID="" LineNumber="" ExecutionTime="00:00:01.303" Status="0">
+            <TaskIteration IterationNo="1" ExecutionTime="00:00:01.303" Status="0">
+                <Step Id="1" StepSeq="1" object="" Action="AcceptDialogAndStoreMessage" Parent_ID="" LineNumber="7" ExecutionTime="00:00:01.303" Status="0">
+                    <Param Name="HoldAlertMessage">HoldAlertMessage</Param>
+                </Step>
+            </TaskIteration>
+        </Task>
+        <Task Id="22c34fa30d0442a0b0d02592572d08ab" TaskSeq="6" Name="" IsSystemTask="true" OnError="Continue" ParentID="" LineNumber="" ExecutionTime="00:00:01.248" Status="0">
+            <TaskIteration IterationNo="1" ExecutionTime="00:00:01.248" Status="0">
+                <Step Id="1" StepSeq="1" object="" Action="OpenURL" Parent_ID="" LineNumber="8" ExecutionTime="00:00:01.248" Status="0">
+                    <Param Name="&quot;http://192.168.84.68/ManuscriptScreening/ManuscriptLogin/JournalLogin&quot;">http://192.168.84.68/ManuscriptScreening/ManuscriptLogin/JournalLogin</Param>
+                </Step>
+            </TaskIteration>
+        </Task>
+        <Task Id="a90e3109d4ad41c98fce78409434e561" TaskSeq="7" Name="" IsSystemTask="true" OnError="Continue" ParentID="" LineNumber="" ExecutionTime="00:00:00.882" Status="0">
+            <TaskIteration IterationNo="1" ExecutionTime="00:00:00.882" Status="0">
+                <Step Id="1" StepSeq="1" object="Edit_Button_LoginDashboard" Action="ClickAndWait" Parent_ID="" LineNumber="9" ExecutionTime="00:00:00.882" Status="0"/>
+            </TaskIteration>
+        </Task>
+        <Task Id="3e3e66716c154ba2b546215122bb6a22" TaskSeq="8" Name="" IsSystemTask="true" OnError="Continue" ParentID="" LineNumber="" ExecutionTime="00:00:00.280" Status="0">
+            <TaskIteration IterationNo="1" ExecutionTime="00:00:00.280" Status="0">
+                <Step Id="1" StepSeq="1" object="" Action="AcceptDialogAndStoreMessage" Parent_ID="" LineNumber="10" ExecutionTime="00:00:00.280" Status="0">
+                    <Param Name="EditOnHoldJobAlertMessage">EditOnHoldJobAlertMessage</Param>
+                </Step>
+            </TaskIteration>
+        </Task>
+    </TCIteration>
+</TC>

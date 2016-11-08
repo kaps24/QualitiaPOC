@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Report Browser="FIREFOX" BrowserVersion="46.0" BuildNumber="1.01" CreateDebugLog="true" CreateErrorLog="true" CreateInfoLog="true" ExecutionEnvironment="LOCAL" ExecutionType="O" HostName="deinpuma1171" IsDownloadVideo="False" OS="WINDOWS" OSVersion="WINDOWS 7" ProjectName="manuscript" ReleaseNumber="1.01" SuiteExecutionID="1.01_1.01_deinpuma1171_admin_108" SuiteIterationNumber="108" Tool="webdriver" UserName="admin" isError="false">
+    <Suite EndTime="2016-10-20 12:24:49" ExecutionTime="0:1:18" Id="f720ec1a73224908bd6320d57da99df8" Name="Login-AdminDashboard" ScheduleName="" StartTime="2016-10-19 12:23:31">
+        <TCs>
+            <TC Desc="Test case to verify the Job login functionality over Journal login" DownloadVideoLink="" ExecutionTime="24:01:18.041" ManualTCId="TC_LA_01" OnError="Continue" ReportLink="file:///C:/ProgramData/Qualitia/Logs//deinpuma1171/admin/manuscript/1.01/1.01/IterationNumber_108/TestCaseReport.html?TC_LA_01_Verify new Job login over Journal Dashboard_ab1d1fc7fcac4af9afd7ede463375f8e#true#true#true" RunId="ab1d1fc7fcac4af9afd7ede463375f8e" ScenarioId="8f1c0062c8a34c7facd50a5997d387c0" ScenarioName="Login-AdminDashboard" StartTime="2016-10-19 12:23:31.151" Status="1" TCName="TC_LA_01_Verify new Job login over Journal Dashboard" TCSeqId="1" TcId="9724b92641ba49ffa6f7b387cdf07e16" endTime="2016-10-20 12:24:49.841">
+                <TCIteration ExecutionTime="24:01:18.041" IterationNo="1" Status="1" TCDataSetTag=""/>
+            </TC>
+        </TCs>
+    </Suite>
+</Report>

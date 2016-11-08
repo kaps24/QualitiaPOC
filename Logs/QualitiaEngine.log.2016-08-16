@@ -1,0 +1,608 @@
+[16-08-16 17:13:07:007] DEBUG (SauceLabsDataHolder.java:49) - getSauceLabsDataHolder()++
+[16-08-16 17:13:07:007] DEBUG (SauceLabsDataHolder.java:51) - Creating SauceLabsDataHolder object
+[16-08-16 17:13:07:007] DEBUG (SauceLabsDataHolder.java:53) - getSauceLabsDataHolder()-- Returning newly SauceLabsDataHolder object reference.
+[16-08-16 17:13:07:007] DEBUG (QualitiaOffline.java:94) - Current path >>file:/D:/offline/qualitiaoffline-3.11.0.jar!/masterproperties
+[16-08-16 17:13:07:007] DEBUG (QualitiaOffline.java:104) - Config filepath >>./config/qualitia.properties
+[16-08-16 17:13:07:007] DEBUG (QualitiaOffline.java:111) - Calling convertToMap() by passing parameter command line arguments.
+[16-08-16 17:13:07:007] DEBUG (CmdLineProcessor.java:43) - convertToMap()++
+[16-08-16 17:13:07:007] INFO  (CmdLineProcessor.java:44) - Converting command-line arguments i.e. key-value pairs into Map key-value pairs...
+[16-08-16 17:13:07:007] DEBUG (CmdLineProcessor.java:48) - There are no command line arguments specified.
+[16-08-16 17:13:07:007] DEBUG (CmdLineProcessor.java:49) - convertToMap()-- Returning null
+[16-08-16 17:13:07:007] DEBUG (CmdLineProcessor.java:152) - removeSauceArguments()++
+[16-08-16 17:13:07:007] DEBUG (CmdLineProcessor.java:165) - removeSauceArguments()--
+[16-08-16 17:13:07:007] ERROR (QualitiaOffline.java:606) - CI tool 'NA' Not Supported. So it execution as DEFAULT
+[16-08-16 17:13:07:007] DEBUG (QualitiaOffline.java:141) - qtmpFilePath >>./temp/e0feda83325547769dc97b8f2bf5098c.qtmp
+[16-08-16 17:13:07:007] DEBUG (callController.java:258) - 
+******************************************************************************************************
+*************************** Qualitia Execution Engine Started in Offline mode *********************************
+******************************************************************************************************
+
+[16-08-16 17:13:07:007] INFO  (callController.java:49) - List of Jars (only) used in classpath: custom action folders not listed here
+qualitiaoffline-3.11.0.jar
+commons-lang3-3.3.jar
+commons-exec-1.2.jar
+commons-io-2.4.jar
+junit-4.8.1.jar
+jxl.jar
+log4j-1.2.17.jar
+mysql-connector-java-5.1.6-bin.jar
+sqljdbc4.jar
+libthrift-0.9.3.jar
+slf4j-api-1.7.13.jar
+slf4j-simple-1.7.13.jar
+json-simple-1.1.1.jar
+selenium-server-standalone-2.53.0.jar
+
+[16-08-16 17:13:07:007] DEBUG (callController.java:359) - List of Arguments :: ./temp/e0feda83325547769dc97b8f2bf5098c.properties
+[16-08-16 17:13:07:007] DEBUG (ConfigFileReader.java:83) - passing filePath : ./temp/e0feda83325547769dc97b8f2bf5098c.properties to FIS
+[16-08-16 17:13:07:007] DEBUG (ConfigFileReader.java:85) - FIS creation successful.
+[16-08-16 17:13:07:007] DEBUG (ConfigFileReader.java:240) - ProjectName=<<manuscript>>
+[16-08-16 17:13:07:007] DEBUG (ConfigFileReader.java:243) - Changed to lower case to support Unix connection. ProjectName=<<manuscript>>
+[16-08-16 17:13:07:007] WARN  (ConfigFileReader.java:344) - Profile Path not provided. Default profile will be used.
+[16-08-16 17:13:07:007] DEBUG (ConfigFileReader.java:352) - HeadlessMode >> False
+[16-08-16 17:13:07:007] INFO  (ConfigFileReader.java:310) - executionhighlight::>>False
+[16-08-16 17:13:08:008] DEBUG (Controller.java:215) - SuiteID=|f720ec1a73224908bd6320d57da99df8|	 SuiteName=|Login-AdminDashboard|	 ScheduleName=||
+[16-08-16 17:13:08:008] DEBUG (Controller.java:249) - tcId=|9724b92641ba49ffa6f7b387cdf07e16|
+tcName=|TC_LA_01_Verify new Job login over Journal Dashboard|
+RunId=|ab1d1fc7fcac4af9afd7ede463375f8e|
+tcSeqId=|1|
+TCFileName=|Login.XML|
+OnError=|Continue|
+[16-08-16 17:13:08:008] DEBUG (Controller.java:539) - Calling getXmlToJavaObject
+[16-08-16 17:13:08:008] DEBUG (Controller.java:544) - End getXmlToJavaObject
+[16-08-16 17:13:08:008] DEBUG (Controller.java:841) - Adding TaskName node for TaskID= |878de9bd4f32472dbbb8d5534355a7f6|	 TaskName= |Authentication popup| to Hashmap TASKNAMEPERTC
+[16-08-16 17:13:08:008] DEBUG (Controller.java:841) - Adding TaskName node for TaskID= |62d24ee0c6c7426c8107892d8324420d|	 TaskName= |62d24ee0c6c7426c8107892d8324420d| to Hashmap TASKNAMEPERTC
+[16-08-16 17:13:08:008] DEBUG (Controller.java:841) - Adding TaskName node for TaskID= |c6939138a8664ea68cb103f16a2ff15f|	 TaskName= |Variable Store| to Hashmap TASKNAMEPERTC
+[16-08-16 17:13:08:008] DEBUG (Controller.java:841) - Adding TaskName node for TaskID= |67d658ab66f0460b9508a0dc5731edd6|	 TaskName= |Enter Login dashboard details| to Hashmap TASKNAMEPERTC
+[16-08-16 17:13:08:008] DEBUG (Controller.java:841) - Adding TaskName node for TaskID= |2e8d3d13e8fa40b98461fb017d0bb3de|	 TaskName= |Alert Handle| to Hashmap TASKNAMEPERTC
+[16-08-16 17:13:08:008] DEBUG (Controller.java:841) - Adding TaskName node for TaskID= |0789017cab3c49908421f37863bb6ecd|	 TaskName= |Verifying data over Journal Dashboard| to Hashmap TASKNAMEPERTC
+[16-08-16 17:13:08:008] DEBUG (Controller.java:841) - Adding TaskName node for TaskID= |40b686ed215a4a9ab35fcb6f8c3812a3|	 TaskName= |Verifying data over Admin Dashboard| to Hashmap TASKNAMEPERTC
+[16-08-16 17:13:08:008] DEBUG (Controller.java:566) - Building Task to Step HashMap
+[16-08-16 17:13:08:008] DEBUG (Controller.java:578) - Building Step HashMap
+[16-08-16 17:13:08:008] DEBUG (Controller.java:710) - TaskSeq= |1| steps mapped
+[16-08-16 17:13:08:008] DEBUG (Controller.java:578) - Building Step HashMap
+[16-08-16 17:13:08:008] DEBUG (Controller.java:710) - TaskSeq= |2| steps mapped
+[16-08-16 17:13:08:008] DEBUG (Controller.java:578) - Building Step HashMap
+[16-08-16 17:13:08:008] DEBUG (Controller.java:710) - TaskSeq= |3| steps mapped
+[16-08-16 17:13:08:008] DEBUG (Controller.java:578) - Building Step HashMap
+[16-08-16 17:13:08:008] DEBUG (Controller.java:710) - TaskSeq= |4| steps mapped
+[16-08-16 17:13:08:008] DEBUG (Controller.java:578) - Building Step HashMap
+[16-08-16 17:13:08:008] DEBUG (Controller.java:710) - TaskSeq= |5| steps mapped
+[16-08-16 17:13:08:008] DEBUG (Controller.java:578) - Building Step HashMap
+[16-08-16 17:13:08:008] DEBUG (Controller.java:710) - TaskSeq= |6| steps mapped
+[16-08-16 17:13:08:008] DEBUG (Controller.java:578) - Building Step HashMap
+[16-08-16 17:13:08:008] DEBUG (Controller.java:710) - TaskSeq= |7| steps mapped
+[16-08-16 17:13:08:008] DEBUG (Controller.java:378) - Test Case Details... 
+TCName=|TC_LA_01_Verify new Job login over Journal Dashboard|
+No. Of Tasks |7|
+[16-08-16 17:13:08:008] DEBUG (Controller.java:401) - taskID=|878de9bd4f32472dbbb8d5534355a7f6|
+taskName=|Authentication popup|
+taskSeq=|1|
+IsSystemTask=|false|
+ParentId=||
+OnError=|Continue|
+[16-08-16 17:13:08:008] DEBUG (Controller.java:406) - No. Of Task Iteration=1
+[16-08-16 17:13:08:008] DEBUG (Controller.java:414) - No. Of Steps=1
+[16-08-16 17:13:08:008] DEBUG (Controller.java:401) - taskID=|62d24ee0c6c7426c8107892d8324420d|
+taskName=||
+taskSeq=|2|
+IsSystemTask=|true|
+ParentId=||
+OnError=|Continue|
+[16-08-16 17:13:08:008] DEBUG (Controller.java:406) - No. Of Task Iteration=1
+[16-08-16 17:13:08:008] DEBUG (Controller.java:414) - No. Of Steps=1
+[16-08-16 17:13:08:008] DEBUG (Controller.java:401) - taskID=|c6939138a8664ea68cb103f16a2ff15f|
+taskName=|Variable Store|
+taskSeq=|3|
+IsSystemTask=|false|
+ParentId=||
+OnError=|Continue|
+[16-08-16 17:13:08:008] DEBUG (Controller.java:406) - No. Of Task Iteration=1
+[16-08-16 17:13:08:008] DEBUG (Controller.java:414) - No. Of Steps=5
+[16-08-16 17:13:08:008] DEBUG (Controller.java:401) - taskID=|67d658ab66f0460b9508a0dc5731edd6|
+taskName=|Enter Login dashboard details|
+taskSeq=|4|
+IsSystemTask=|false|
+ParentId=||
+OnError=|Continue|
+[16-08-16 17:13:08:008] DEBUG (Controller.java:406) - No. Of Task Iteration=1
+[16-08-16 17:13:08:008] DEBUG (Controller.java:414) - No. Of Steps=10
+[16-08-16 17:13:08:008] DEBUG (Controller.java:401) - taskID=|2e8d3d13e8fa40b98461fb017d0bb3de|
+taskName=|Alert Handle|
+taskSeq=|5|
+IsSystemTask=|false|
+ParentId=||
+OnError=|Continue|
+[16-08-16 17:13:08:008] DEBUG (Controller.java:406) - No. Of Task Iteration=1
+[16-08-16 17:13:08:008] DEBUG (Controller.java:414) - No. Of Steps=2
+[16-08-16 17:13:08:008] DEBUG (Controller.java:401) - taskID=|0789017cab3c49908421f37863bb6ecd|
+taskName=|Verifying data over Journal Dashboard|
+taskSeq=|6|
+IsSystemTask=|false|
+ParentId=||
+OnError=|Continue|
+[16-08-16 17:13:08:008] DEBUG (Controller.java:406) - No. Of Task Iteration=1
+[16-08-16 17:13:08:008] DEBUG (Controller.java:414) - No. Of Steps=5
+[16-08-16 17:13:08:008] DEBUG (Controller.java:401) - taskID=|40b686ed215a4a9ab35fcb6f8c3812a3|
+taskName=|Verifying data over Admin Dashboard|
+taskSeq=|7|
+IsSystemTask=|false|
+ParentId=||
+OnError=|Continue|
+[16-08-16 17:13:08:008] DEBUG (Controller.java:406) - No. Of Task Iteration=1
+[16-08-16 17:13:08:008] DEBUG (Controller.java:414) - No. Of Steps=6
+[16-08-16 17:13:08:008] DEBUG (Controller.java:919) - Calling createReportTemplates
+[16-08-16 17:13:08:008] DEBUG (Controller.java:1127) - TC Count=1
+[16-08-16 17:13:08:008] DEBUG (Controller.java:1139) - strThreads >>
+[16-08-16 17:13:08:008] DEBUG (Controller.java:1143) - Image thread count >>2
+[16-08-16 17:13:08:008] INFO  (SnapshotWriter.java:37) - Inside Run...
+[16-08-16 17:13:08:008] INFO  (SnapshotWriter.java:37) - Inside Run...
+[16-08-16 17:13:08:008] DEBUG (Controller.java:1161) - Before running QualitiaTestCase.class
+[16-08-16 17:13:08:008] DEBUG (QualitiaSelenium.java:173) - Launching firefox
+[16-08-16 17:13:08:008] DEBUG (WebDriverHandler.java:58) - getWebDriver()++
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:73) - getDesiredCapabilitiesHandler()++
+[16-08-16 17:13:08:008] INFO  (DesiredCapabilitiesHandler.java:75) - Creating DesiredCapabilitiesHandler object...
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:61) - DesiredCapabilitiesHandler()++
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:63) - DesiredCapabilitiesHandler()--
+[16-08-16 17:13:08:008] INFO  (DesiredCapabilitiesHandler.java:77) - DesiredCapabilitiesHandler object object created.
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:78) - getDesiredCapabilitiesHandler()-- Returning DesiredCapabilitiesHandler object...
+[16-08-16 17:13:08:008] INFO  (WebDriverHandler.java:65) - Identifying execution environment....
+[16-08-16 17:13:08:008] DEBUG (WebDriverHandler.java:115) - Calling getDesiredCapabilities() by passing parameters: Environment Type=LOCAL, browserName=firefox
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:95) - getDesiredCapabilities()++
+[16-08-16 17:13:08:008] INFO  (DesiredCapabilitiesHandler.java:107) - Creating DesiredCapabilities object and assigning capabilities to it...
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:111) - Calling setDCAPFilePaths()
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:216) - setDCAPFilePaths()++
+[16-08-16 17:13:08:008] INFO  (DesiredCapabilitiesHandler.java:221) - firefox DCAP file path= ./config/firefoxdc.properties
+[16-08-16 17:13:08:008] INFO  (DesiredCapabilitiesHandler.java:223) - firefox master DCAP file path= file:/D:/offline/qualitiaoffline-3.11.0.jar!/masterproperties/firefoxmasterdc.properties
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:225) - setDCAPFilePaths()--
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:114) - Calling assignDesiredCapabilitiesObject()
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:235) - assignDesiredCapabilitiesObject()++
+[16-08-16 17:13:08:008] INFO  (DesiredCapabilitiesHandler.java:239) - DesiredCapabilities object is created for Firefox.
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:274) - setDesiredCapabilitiesProperties()++
+[16-08-16 17:13:08:008] DEBUG (PropertiesReader.java:42) - getPropertiesReader()++
+[16-08-16 17:13:08:008] DEBUG (PropertiesReader.java:31) - PropertiesReader()++
+[16-08-16 17:13:08:008] DEBUG (PropertiesReader.java:32) - PropertiesReader()--
+[16-08-16 17:13:08:008] DEBUG (PropertiesReader.java:45) - getPropertiesReader()-- Returning newly created PropertiesReader object reference.
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:286) - Calling getMap() by passing parameter user specified capabilities file
+[16-08-16 17:13:08:008] DEBUG (PropertiesReader.java:54) - getMap()++
+[16-08-16 17:13:08:008] INFO  (PropertiesReader.java:56) - Reading properties from file D:\offline\.\config\firefoxdc.properties and setting them in in-memory Map...
+[16-08-16 17:13:08:008] DEBUG (PropertiesReader.java:101) - getMap()++
+[16-08-16 17:13:08:008] INFO  (PropertiesReader.java:122) - Getting properties in Map completed.
+[16-08-16 17:13:08:008] DEBUG (PropertiesReader.java:123) - getMap()-- Returning properties Map
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:293) - Calling getMap() by passing expected capabilities file
+[16-08-16 17:13:08:008] DEBUG (PropertiesReader.java:101) - getMap()++
+[16-08-16 17:13:08:008] INFO  (PropertiesReader.java:122) - Getting properties in Map completed.
+[16-08-16 17:13:08:008] DEBUG (PropertiesReader.java:123) - getMap()-- Returning properties Map
+[16-08-16 17:13:08:008] DEBUG (PropertiesValidator.java:40) - getValidator()++
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:42) - Creating Validator class object
+[16-08-16 17:13:08:008] DEBUG (PropertiesValidator.java:29) - Validator()++
+[16-08-16 17:13:08:008] DEBUG (PropertiesValidator.java:30) - Validator()--
+[16-08-16 17:13:08:008] DEBUG (PropertiesValidator.java:44) - getValidator()-- Returning Validator object reference.
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:310) - Calling validateProperties() by passing parameters: user capabilities Map and expected capabilities Map
+[16-08-16 17:13:08:008] DEBUG (PropertiesValidator.java:63) - validateProperties()++
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:64) - Validating properties user properties against expected properties...
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key firefox_binary present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key acceptSslCerts present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key elementScrollBehavior present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key javascriptEnabled present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key logtype_browser_level present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key logtype_profiler_level present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key version present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key noProxy present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key webdriver.load.strategy present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key logtype_performance_level present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key nativeEvents present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key custom_use_loggingpreferences present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key applicationCacheEnabled present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key socksPassword present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key custom_use_proxy present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key webdriver.log.file present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key webdriver_assume_untrusted_issuer present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key proxyAutoconfigUrl present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key rotatable present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key webdriver_firefox_port present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key locationContextEnabled present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key socksUsername present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key cssSelectorsEnabled present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key logtype_server_level present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key databaseEnabled present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key handlesAlerts present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key proxyType present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key browserConnectionEnabled present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key webStorageEnabled present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key custom_proxy_address present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key logtype_driver_level present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key logtype_client_level present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key custom_use_firefox_profile present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key webdriver.log.driver present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:72) - The key webdriver_accept_untrusted_certs present in expected properties but not in user properties.
+[16-08-16 17:13:08:008] INFO  (PropertiesValidator.java:81) - Validation completed
+[16-08-16 17:13:08:008] DEBUG (PropertiesValidator.java:82) - validateProperties()-- Returning validated properties Map
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:324) - Calling removeLoggingPreferencesCapabilities() by passing parameter validatedCapabilities Map
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:916) - removeLoggingPreferencesCapabilities()++
+[16-08-16 17:13:08:008] INFO  (DesiredCapabilitiesHandler.java:918) - Removing Logging Preferences capabilities from validatedCapabilities Map
+[16-08-16 17:13:08:008] INFO  (DesiredCapabilitiesHandler.java:954) - Removing Logging Preferences capabilities from validatedCapabilities Map completed.
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:955) - removeLoggingPreferencesCapabilities()--
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:336) - Calling removeProxyCapabilities() by passing parameter: validatedCapabilities Map
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:526) - removeProxyCapabilities()++
+[16-08-16 17:13:08:008] INFO  (DesiredCapabilitiesHandler.java:527) - Removing Proxy capabilities from validatedCapabilities Map...
+[16-08-16 17:13:08:008] INFO  (DesiredCapabilitiesHandler.java:563) - Proxy capabilities removed from validatedCapabilities Map.
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:564) - removeProxyCapabilities()--
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:351) - Calling setFirefoxProfileCapabilities() by passing parameters: validatedCapabilities Map and local profileFile
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:967) - setFirefoxProfileCapabilities()++
+[16-08-16 17:13:08:008] INFO  (DesiredCapabilitiesHandler.java:968) - Setting firefox profile capabilities...
+[16-08-16 17:13:08:008] INFO  (DesiredCapabilitiesHandler.java:1016) - Setting firefox profile capabilities completed.
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:1017) - setFirefoxProfileCapabilities()--
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:356) - Calling removeFirefoxProfileCapabilities() by passing parameter: validatedCapabilities Map
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:1027) - removeFirefoxProfileCapabilities()++
+[16-08-16 17:13:08:008] INFO  (DesiredCapabilitiesHandler.java:1028) - Removing Firefox profile capabilities from validatedCapabilities Map.
+[16-08-16 17:13:08:008] INFO  (DesiredCapabilitiesHandler.java:1063) - Removing Firefox profile capabilities from validatedCapabilities Map completed.
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:1064) - removeFirefoxProfileCapabilities()--
+[16-08-16 17:13:08:008] INFO  (DesiredCapabilitiesHandler.java:387) - Setting remaining desired capabilities...
+[16-08-16 17:13:08:008] INFO  (DesiredCapabilitiesHandler.java:393) - unexpectedAlertBehaviour = ignore
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:411) - setDesiredCapabilitiesProperties()--
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:129) - Desired capabilities set by user =====> {firefox_profile=org.openqa.selenium.firefox.FirefoxProfile@2d6a15c5, platform=ANY, browserName=firefox, unexpectedAlertBehaviour=ignore, version=}
+[16-08-16 17:13:08:008] DEBUG (DesiredCapabilitiesHandler.java:131) - getDesiredCapabilities()--  Returning DesiredCapabilitities object
+[16-08-16 17:13:08:008] DEBUG (WebDriverHandler.java:118) - Calling getLocalWebDriver() by passing parameters: browserName=firefox and desiredCapabilities
+[16-08-16 17:13:08:008] DEBUG (WebDriverHandler.java:197) - getLocalWebDriver()++
+[16-08-16 17:13:08:008] INFO  (WebDriverHandler.java:198) - Creating WebDriver object for browser: firefox
+[16-08-16 17:13:12:012] INFO  (WebDriverHandler.java:203) - FirefoxDriver object is created.
+[16-08-16 17:13:12:012] DEBUG (WebDriverHandler.java:226) - Capabilities used by Selenium WebDriver =====> {platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=43.0.1}
+[16-08-16 17:13:12:012] DEBUG (WebDriverHandler.java:240) - getLocalWebDriver()--
+[16-08-16 17:13:12:012] INFO  (WebDriverHandler.java:124) - RemoteWebDriver object creation completed...
+[16-08-16 17:13:12:012] DEBUG (WebDriverHandler.java:144) - getWebDriver()--
+[16-08-16 17:13:12:012] DEBUG (QualitiaSelenium.java:175) - Finished Launching firefox
+[16-08-16 17:13:12:012] DEBUG (QualitiaSelenium.java:189) - caps >>Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=43.0.1}]
+[16-08-16 17:13:12:012] INFO  (QualitiaSelenium.java:241) - Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=43.0.1}]
+[16-08-16 17:13:12:012] DEBUG (QualitiaTestCase.java:77) - Test Case Name=|TC_LA_01_Verify new Job login over Journal Dashboard| Executing
+[16-08-16 17:13:12:012] DEBUG (QualitiaTestCase.java:110) - TestCaseName=|TC_LA_01_Verify new Job login over Journal Dashboard| ManualTCID=|TC_LA_01| RunID=|ab1d1fc7fcac4af9afd7ede463375f8e| TC SeqID=|1|
+[16-08-16 17:13:12:012] DEBUG (QualitiaTestCase.java:127) - Before creating Test Case Folder at 'C:/ProgramData/Qualitia/Logs//deinpuma1171/admin/manuscript/1.01/1.01/IterationNumber_10/TC_LA_01_Verify new Job login over Journal Dashboard_ab1d1fc7fcac4af9afd7ede463375f8e'
+[16-08-16 17:13:12:012] DEBUG (QualitiaTestCase.java:138) - After creating Test Case folder successfully at 'C:/ProgramData/Qualitia/Logs//deinpuma1171/admin/manuscript/1.01/1.01/IterationNumber_10/TC_LA_01_Verify new Job login over Journal Dashboard_ab1d1fc7fcac4af9afd7ede463375f8e'
+[16-08-16 17:13:12:012] DEBUG (QualitiaTestCase.java:156) - Before creating iteration folder at 'C:/ProgramData/Qualitia/Logs//deinpuma1171/admin/manuscript/1.01/1.01/IterationNumber_10/TC_LA_01_Verify new Job login over Journal Dashboard_ab1d1fc7fcac4af9afd7ede463375f8e/Iteration_1'
+[16-08-16 17:13:12:012] DEBUG (QualitiaTestCase.java:164) - After creating iteration folder successfully at 'C:/ProgramData/Qualitia/Logs//deinpuma1171/admin/manuscript/1.01/1.01/IterationNumber_10/TC_LA_01_Verify new Job login over Journal Dashboard_ab1d1fc7fcac4af9afd7ede463375f8e/Iteration_1'
+[16-08-16 17:13:12:012] DEBUG (QualitiaTestCase.java:166) - Before creating log files inside iteration folder 'C:/ProgramData/Qualitia/Logs//deinpuma1171/admin/manuscript/1.01/1.01/IterationNumber_10/TC_LA_01_Verify new Job login over Journal Dashboard_ab1d1fc7fcac4af9afd7ede463375f8e/Iteration_1'
+[16-08-16 17:13:12:012] DEBUG (QualitiaTestCase.java:176) - After creating log files successfully inside iteration folder 'C:/ProgramData/Qualitia/Logs//deinpuma1171/admin/manuscript/1.01/1.01/IterationNumber_10/TC_LA_01_Verify new Job login over Journal Dashboard_ab1d1fc7fcac4af9afd7ede463375f8e/Iteration_1'
+[16-08-16 17:13:12:012] DEBUG (QualitiaTestCase.java:184) - createBitmapFolderPath executed successfully
+[16-08-16 17:13:12:012] DEBUG (QualitiaTestCase.java:222) - Task Details ... 
+Task Id=|878de9bd4f32472dbbb8d5534355a7f6|
+taskName=|Authentication popup|
+TaskSeq=|1|
+Is System Task=|false|
+task ParentId=||
+task OnError=|Continue|
+[16-08-16 17:13:12:012] DEBUG (QualitiaTestCase.java:230) - tcOnError=|Continue|After taskOnError overriding OnError Action =|Continue|
+[16-08-16 17:13:12:012] DEBUG (General.java:1886) - OS Name :<<WINDOWS 7>>OS Version :<<6.1>>OS Arch:<<AMD64>>
+[16-08-16 17:13:32:032] DEBUG (General.java:1932) - In windows
+[16-08-16 17:13:33:033] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:33:033] DEBUG (QualitiaTestCase.java:222) - Task Details ... 
+Task Id=|62d24ee0c6c7426c8107892d8324420d|
+taskName=||
+TaskSeq=|2|
+Is System Task=|true|
+task ParentId=||
+task OnError=|Continue|
+[16-08-16 17:13:33:033] DEBUG (QualitiaTestCase.java:230) - tcOnError=|Continue|After taskOnError overriding OnError Action =|Continue|
+[16-08-16 17:13:34:034] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:34:034] DEBUG (QualitiaTestCase.java:222) - Task Details ... 
+Task Id=|c6939138a8664ea68cb103f16a2ff15f|
+taskName=|Variable Store|
+TaskSeq=|3|
+Is System Task=|false|
+task ParentId=||
+task OnError=|Continue|
+[16-08-16 17:13:34:034] DEBUG (QualitiaTestCase.java:230) - tcOnError=|Continue|After taskOnError overriding OnError Action =|Continue|
+[16-08-16 17:13:34:034] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:34:034] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:34:034] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:34:034] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:34:034] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:34:034] DEBUG (QualitiaTestCase.java:222) - Task Details ... 
+Task Id=|67d658ab66f0460b9508a0dc5731edd6|
+taskName=|Enter Login dashboard details|
+TaskSeq=|4|
+Is System Task=|false|
+task ParentId=||
+task OnError=|Continue|
+[16-08-16 17:13:34:034] DEBUG (QualitiaTestCase.java:230) - tcOnError=|Continue|After taskOnError overriding OnError Action =|Continue|
+[16-08-16 17:13:34:034] DEBUG (QualitiaTestCase.java:1240) - Select Frames starts at ::08/16/2016 05:13:34 599
+[16-08-16 17:13:34:034] DEBUG (QualitiaTestCase.java:1258) - Select Frames ends at ::08/16/2016 05:13:34 615
+[16-08-16 17:13:34:034] WARN  (FwUtil.java:160) - Error in evaluating resolveSpecialCharactersAndVariables Value returned is null. Error Message=|Key ServiceType_Value does not exist|
+[16-08-16 17:13:34:034] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:34:034] DEBUG (QualitiaTestCase.java:1240) - Select Frames starts at ::08/16/2016 05:13:34 677
+[16-08-16 17:13:34:034] DEBUG (QualitiaTestCase.java:1258) - Select Frames ends at ::08/16/2016 05:13:34 677
+[16-08-16 17:13:34:034] WARN  (FwUtil.java:160) - Error in evaluating resolveSpecialCharactersAndVariables Value returned is null. Error Message=|Key JournalType_Value does not exist|
+[16-08-16 17:13:34:034] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:34:034] DEBUG (QualitiaTestCase.java:1240) - Select Frames starts at ::08/16/2016 05:13:34 740
+[16-08-16 17:13:34:034] DEBUG (QualitiaTestCase.java:1258) - Select Frames ends at ::08/16/2016 05:13:34 740
+[16-08-16 17:13:34:034] WARN  (FwUtil.java:160) - Error in evaluating resolveSpecialCharactersAndVariables Value returned is null. Error Message=|Key MSNumber_Value does not exist|
+[16-08-16 17:13:34:034] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:34:034] DEBUG (QualitiaTestCase.java:1240) - Select Frames starts at ::08/16/2016 05:13:34 818
+[16-08-16 17:13:34:034] DEBUG (QualitiaTestCase.java:1258) - Select Frames ends at ::08/16/2016 05:13:34 818
+[16-08-16 17:13:34:034] WARN  (FwUtil.java:160) - Error in evaluating resolveSpecialCharactersAndVariables Value returned is null. Error Message=|Key SpecialInstruction_Value does not exist|
+[16-08-16 17:13:34:034] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:34:034] DEBUG (QualitiaTestCase.java:1240) - Select Frames starts at ::08/16/2016 05:13:34 943
+[16-08-16 17:13:34:034] DEBUG (QualitiaTestCase.java:1258) - Select Frames ends at ::08/16/2016 05:13:34 943
+[16-08-16 17:13:34:034] WARN  (FwUtil.java:160) - Error in evaluating resolveSpecialCharactersAndVariables Value returned is null. Error Message=|Key Associate_Value does not exist|
+[16-08-16 17:13:34:034] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:35:035] DEBUG (QualitiaTestCase.java:1240) - Select Frames starts at ::08/16/2016 05:13:35 286
+[16-08-16 17:13:35:035] DEBUG (QualitiaTestCase.java:1258) - Select Frames ends at ::08/16/2016 05:13:35 286
+[16-08-16 17:13:35:035] DEBUG (FwUtil.java:525) - There is a problem reading Highlight script. Skipping highlighting for now...
+[16-08-16 17:13:35:035] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:35:035] DEBUG (QualitiaTestCase.java:1240) - Select Frames starts at ::08/16/2016 05:13:35 613
+[16-08-16 17:13:35:035] DEBUG (QualitiaTestCase.java:1258) - Select Frames ends at ::08/16/2016 05:13:35 613
+[16-08-16 17:13:35:035] DEBUG (WebObject.java:400) - Calling click()
+[16-08-16 17:13:35:035] DEBUG (FwUtil.java:525) - There is a problem reading Highlight script. Skipping highlighting for now...
+[16-08-16 17:13:35:035] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:36:036] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:37:037] DEBUG (QualitiaTestCase.java:1240) - Select Frames starts at ::08/16/2016 05:13:37 064
+[16-08-16 17:13:37:037] DEBUG (QualitiaTestCase.java:1258) - Select Frames ends at ::08/16/2016 05:13:37 064
+[16-08-16 17:13:37:037] DEBUG (FwUtil.java:525) - There is a problem reading Highlight script. Skipping highlighting for now...
+[16-08-16 17:13:37:037] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:37:037] ERROR (BrowserLauncher.java:70) - Webdriver failed to capture screen shot with setting of Browser capture mode, calling DesktopScreenshot method
+org.openqa.selenium.UnhandledAlertException: Modal dialog present: Please, Select Task
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'deinpuma1171', ip: '10.113.5.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 8939574b-3867-4948-a0c5-4fc672651414
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=43.0.1}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.firefox.FirefoxDriver.getScreenshotAs(FirefoxDriver.java:341)
+	at com.webdriverfw.Libraries.BrowserLauncher.takeBrowserScreenshot(BrowserLauncher.java:67)
+	at com.webdriverfw.Libraries.BrowserLauncher.takeScreenshot(BrowserLauncher.java:44)
+	at com.webdriverfw.Libraries.QualitiaSelenium.wdTakeScreenshot(QualitiaSelenium.java:341)
+	at com.webdriverfw.Libraries.QualitiaSelenium.takeScreenshot(QualitiaSelenium.java:333)
+	at com.webdriverfw.Libraries.QualitiaTestCase.executeTestCase(QualitiaTestCase.java:585)
+	at com.webdriverfw.Libraries.QualitiaTestCase.testTestCase(QualitiaTestCase.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:127)
+	at org.junit.runner.JUnitCore.runClasses(JUnitCore.java:76)
+	at com.webdriverfw.Driver.Controller.execute(Controller.java:1178)
+	at com.webdriverfw.Driver.callController.executeOffline(callController.java:282)
+	at com.webdriverfw.Driver.QualitiaOffline.webdriverExecution(QualitiaOffline.java:764)
+	at com.webdriverfw.Driver.QualitiaOffline.main(QualitiaOffline.java:148)
+[16-08-16 17:13:39:039] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:39:039] ERROR (BrowserLauncher.java:70) - Webdriver failed to capture screen shot with setting of Browser capture mode, calling DesktopScreenshot method
+org.openqa.selenium.UnhandledAlertException: Modal dialog present: Please, Select Task
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'deinpuma1171', ip: '10.113.5.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 8939574b-3867-4948-a0c5-4fc672651414
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=43.0.1}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.firefox.FirefoxDriver.getScreenshotAs(FirefoxDriver.java:341)
+	at com.webdriverfw.Libraries.BrowserLauncher.takeBrowserScreenshot(BrowserLauncher.java:67)
+	at com.webdriverfw.Libraries.BrowserLauncher.takeScreenshot(BrowserLauncher.java:44)
+	at com.webdriverfw.Libraries.QualitiaSelenium.wdTakeScreenshot(QualitiaSelenium.java:341)
+	at com.webdriverfw.Libraries.QualitiaSelenium.takeScreenshot(QualitiaSelenium.java:333)
+	at com.webdriverfw.Libraries.QualitiaTestCase.executeTestCase(QualitiaTestCase.java:585)
+	at com.webdriverfw.Libraries.QualitiaTestCase.testTestCase(QualitiaTestCase.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:127)
+	at org.junit.runner.JUnitCore.runClasses(JUnitCore.java:76)
+	at com.webdriverfw.Driver.Controller.execute(Controller.java:1178)
+	at com.webdriverfw.Driver.callController.executeOffline(callController.java:282)
+	at com.webdriverfw.Driver.QualitiaOffline.webdriverExecution(QualitiaOffline.java:764)
+	at com.webdriverfw.Driver.QualitiaOffline.main(QualitiaOffline.java:148)
+[16-08-16 17:13:39:039] DEBUG (QualitiaTestCase.java:222) - Task Details ... 
+Task Id=|2e8d3d13e8fa40b98461fb017d0bb3de|
+taskName=|Alert Handle|
+TaskSeq=|5|
+Is System Task=|false|
+task ParentId=||
+task OnError=|Continue|
+[16-08-16 17:13:39:039] DEBUG (QualitiaTestCase.java:230) - tcOnError=|Continue|After taskOnError overriding OnError Action =|Continue|
+[16-08-16 17:13:39:039] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:39:039] ERROR (BrowserLauncher.java:70) - Webdriver failed to capture screen shot with setting of Browser capture mode, calling DesktopScreenshot method
+org.openqa.selenium.UnhandledAlertException: Modal dialog present: Please, Select Task
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'deinpuma1171', ip: '10.113.5.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 8939574b-3867-4948-a0c5-4fc672651414
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=43.0.1}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.firefox.FirefoxDriver.getScreenshotAs(FirefoxDriver.java:341)
+	at com.webdriverfw.Libraries.BrowserLauncher.takeBrowserScreenshot(BrowserLauncher.java:67)
+	at com.webdriverfw.Libraries.BrowserLauncher.takeScreenshot(BrowserLauncher.java:44)
+	at com.webdriverfw.Libraries.QualitiaSelenium.wdTakeScreenshot(QualitiaSelenium.java:341)
+	at com.webdriverfw.Libraries.QualitiaSelenium.takeScreenshot(QualitiaSelenium.java:333)
+	at com.webdriverfw.Libraries.QualitiaTestCase.executeTestCase(QualitiaTestCase.java:585)
+	at com.webdriverfw.Libraries.QualitiaTestCase.testTestCase(QualitiaTestCase.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:127)
+	at org.junit.runner.JUnitCore.runClasses(JUnitCore.java:76)
+	at com.webdriverfw.Driver.Controller.execute(Controller.java:1178)
+	at com.webdriverfw.Driver.callController.executeOffline(callController.java:282)
+	at com.webdriverfw.Driver.QualitiaOffline.webdriverExecution(QualitiaOffline.java:764)
+	at com.webdriverfw.Driver.QualitiaOffline.main(QualitiaOffline.java:148)
+[16-08-16 17:13:40:040] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:40:040] DEBUG (QualitiaTestCase.java:222) - Task Details ... 
+Task Id=|0789017cab3c49908421f37863bb6ecd|
+taskName=|Verifying data over Journal Dashboard|
+TaskSeq=|6|
+Is System Task=|false|
+task ParentId=||
+task OnError=|Continue|
+[16-08-16 17:13:40:040] DEBUG (QualitiaTestCase.java:230) - tcOnError=|Continue|After taskOnError overriding OnError Action =|Continue|
+[16-08-16 17:13:40:040] DEBUG (QualitiaTestCase.java:1240) - Select Frames starts at ::08/16/2016 05:13:40 373
+[16-08-16 17:13:40:040] DEBUG (QualitiaTestCase.java:1258) - Select Frames ends at ::08/16/2016 05:13:40 373
+[16-08-16 17:13:40:040] WARN  (FwUtil.java:160) - Error in evaluating resolveSpecialCharactersAndVariables Value returned is null. Error Message=|Key MSNumber_Value does not exist|
+[16-08-16 17:13:40:040] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:40:040] DEBUG (QualitiaTestCase.java:1240) - Select Frames starts at ::08/16/2016 05:13:40 498
+[16-08-16 17:13:40:040] DEBUG (QualitiaTestCase.java:1258) - Select Frames ends at ::08/16/2016 05:13:40 498
+[16-08-16 17:13:40:040] WARN  (FwUtil.java:160) - Error in evaluating resolveSpecialCharactersAndVariables Value returned is null. Error Message=|Key JournalType_Value does not exist|
+[16-08-16 17:13:40:040] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:40:040] DEBUG (QualitiaTestCase.java:1240) - Select Frames starts at ::08/16/2016 05:13:40 607
+[16-08-16 17:13:40:040] DEBUG (QualitiaTestCase.java:1258) - Select Frames ends at ::08/16/2016 05:13:40 607
+[16-08-16 17:13:40:040] WARN  (FwUtil.java:160) - Error in evaluating resolveSpecialCharactersAndVariables Value returned is null. Error Message=|Key Associate_Value does not exist|
+[16-08-16 17:13:40:040] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:40:040] DEBUG (QualitiaTestCase.java:1240) - Select Frames starts at ::08/16/2016 05:13:40 732
+[16-08-16 17:13:40:040] DEBUG (QualitiaTestCase.java:1258) - Select Frames ends at ::08/16/2016 05:13:40 732
+[16-08-16 17:13:40:040] WARN  (FwUtil.java:160) - Error in evaluating resolveSpecialCharactersAndVariables Value returned is null. Error Message=|Key ServiceType_Value does not exist|
+[16-08-16 17:13:40:040] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:40:040] DEBUG (QualitiaTestCase.java:1240) - Select Frames starts at ::08/16/2016 05:13:40 841
+[16-08-16 17:13:40:040] DEBUG (QualitiaTestCase.java:1258) - Select Frames ends at ::08/16/2016 05:13:40 841
+[16-08-16 17:13:40:040] WARN  (FwUtil.java:160) - Error in evaluating resolveSpecialCharactersAndVariables Value returned is null. Error Message=|Key SpecialInstruction_Value does not exist|
+[16-08-16 17:13:40:040] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:40:040] DEBUG (QualitiaTestCase.java:222) - Task Details ... 
+Task Id=|40b686ed215a4a9ab35fcb6f8c3812a3|
+taskName=|Verifying data over Admin Dashboard|
+TaskSeq=|7|
+Is System Task=|false|
+task ParentId=||
+task OnError=|Continue|
+[16-08-16 17:13:40:040] DEBUG (QualitiaTestCase.java:230) - tcOnError=|Continue|After taskOnError overriding OnError Action =|Continue|
+[16-08-16 17:13:45:045] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:46:046] WARN  (FwUtil.java:160) - Error in evaluating resolveSpecialCharactersAndVariables Value returned is null. Error Message=|Key Usename does not exist|
+[16-08-16 17:13:46:046] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:47:047] DEBUG (QualitiaTestCase.java:1240) - Select Frames starts at ::08/16/2016 05:13:47 487
+[16-08-16 17:13:47:047] DEBUG (QualitiaTestCase.java:1258) - Select Frames ends at ::08/16/2016 05:13:47 487
+[16-08-16 17:13:47:047] WARN  (FwUtil.java:160) - Error in evaluating resolveSpecialCharactersAndVariables Value returned is null. Error Message=|Key MSNumber_Value does not exist|
+[16-08-16 17:13:47:047] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:48:048] DEBUG (QualitiaTestCase.java:1240) - Select Frames starts at ::08/16/2016 05:13:48 626
+[16-08-16 17:13:48:048] DEBUG (QualitiaTestCase.java:1258) - Select Frames ends at ::08/16/2016 05:13:48 626
+[16-08-16 17:13:48:048] WARN  (FwUtil.java:160) - Error in evaluating resolveSpecialCharactersAndVariables Value returned is null. Error Message=|Key ServiceType_Value does not exist|
+[16-08-16 17:13:48:048] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:49:049] DEBUG (QualitiaTestCase.java:1240) - Select Frames starts at ::08/16/2016 05:13:49 780
+[16-08-16 17:13:49:049] DEBUG (QualitiaTestCase.java:1258) - Select Frames ends at ::08/16/2016 05:13:49 780
+[16-08-16 17:13:49:049] WARN  (FwUtil.java:160) - Error in evaluating resolveSpecialCharactersAndVariables Value returned is null. Error Message=|Key JournalType_Value does not exist|
+[16-08-16 17:13:49:049] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:50:050] DEBUG (QualitiaTestCase.java:1240) - Select Frames starts at ::08/16/2016 05:13:50 906
+[16-08-16 17:13:50:050] DEBUG (QualitiaTestCase.java:1258) - Select Frames ends at ::08/16/2016 05:13:50 906
+[16-08-16 17:13:50:050] WARN  (FwUtil.java:160) - Error in evaluating resolveSpecialCharactersAndVariables Value returned is null. Error Message=|Key Associate_Value does not exist|
+[16-08-16 17:13:50:050] DEBUG (QualitiaSelenium.java:329) - takeScreenshot >>webdriver
+[16-08-16 17:13:52:052] DEBUG (QualitiaTestCase.java:942) - getStatusString() i <<1>>
+[16-08-16 17:13:52:052] DEBUG (CONSTANTS.java:127) - Status Map >>0
+[16-08-16 17:13:52:052] DEBUG (CONSTANTS.java:127) - Status Map >>1
+[16-08-16 17:13:52:052] DEBUG (CONSTANTS.java:127) - Status Map >>2
+[16-08-16 17:13:52:052] DEBUG (CONSTANTS.java:127) - Status Map >>-1
+[16-08-16 17:13:52:052] DEBUG (Controller.java:1198) - After running QualitiaTestCase.class
+[16-08-16 17:13:52:052] DEBUG (Controller.java:1291) - Calling updateSummary() method to update browser version into DB as well as summary xml
+[16-08-16 17:13:52:052] DEBUG (Controller.java:1302) - QualitiaSelenium.getOS() >>Windows
+[16-08-16 17:13:52:052] DEBUG (Controller.java:1303) - QualitiaSelenium.getOsVersion() >>Windows 7
+[16-08-16 17:13:52:052] DEBUG (Controller.java:1306) - Print os info
+[16-08-16 17:13:52:052] DEBUG (SauceLabsDataHolder.java:49) - getSauceLabsDataHolder()++
+[16-08-16 17:13:52:052] DEBUG (SauceLabsDataHolder.java:56) - getSauceLabsDataHolder()-- SauceLabsDataHolder object is already created, returning old object reference.
+[16-08-16 17:13:52:052] DEBUG (Controller.java:1326) - End updateSummary()
+[16-08-16 17:13:52:052] DEBUG (callController.java:317) - 
+******************************************************************************************************
+**************************** Qualitia Execution Core Engine Shut Down *********************************
+******************************************************************************************************
+
+
+
+[16-08-16 17:13:52:052] DEBUG (callController.java:331) - Before closeReportTxt.
+[16-08-16 17:13:52:052] DEBUG (SnapshotWriter.java:47) - END of queue >>true
+[16-08-16 17:13:52:052] DEBUG (SnapshotWriter.java:47) - END of queue >>true
+[16-08-16 17:13:52:052] DEBUG (callController.java:333) - After closeReportTxt.
+[16-08-16 17:13:52:052] DEBUG (callController.java:342) - Before closeDebugAndExecLogs()
+[16-08-16 17:13:52:052] DEBUG (callController.java:344) - After closeDebugAndExecLogs()
+[16-08-16 17:13:52:052] DEBUG (QualitiaOffline.java:1227) - Report.txt path >>C:\ProgramData\Qualitia\Logs\deinpuma1171\admin\manuscript\1.01\1.01\IterationNumber_10/report.txt
+[16-08-16 17:13:52:052] DEBUG (QualitiaOffline.java:1255) - Start Merge
+[16-08-16 17:13:52:052] DEBUG (QualitiaOffline.java:1309) - End Merge
+[16-08-16 17:13:52:052] DEBUG (QualitiaOffline.java:1310) - Start Copy File
+[16-08-16 17:13:52:052] DEBUG (QualitiaOffline.java:1314) - End Copy File

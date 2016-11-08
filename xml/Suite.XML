@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Suite Id="f720ec1a73224908bd6320d57da99df8" Name="Login-AdminDashboard" ScheduleName="">
+  <TCs>
+    <TC ScenarioId="8f1c0062c8a34c7facd50a5997d387c0" ScenarioName="Login-AdminDashboard" TCName="TC_LA_01_Verify new Job login over Journal Dashboard" RunId="ab1d1fc7fcac4af9afd7ede463375f8e" SeqId="1" TCId="9724b92641ba49ffa6f7b387cdf07e16" ManualTCId="TC_LA_01" Desc="Test case to verify the Job login functionality over Journal login" OnError="Continue">Login.XML</TC>
+  </TCs>
+</Suite>

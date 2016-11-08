@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExecutionTC TCId="9724b92641ba49ffa6f7b387cdf07e16" ManualTCId="TC_LA_01" TCName="TC_LA_01_Verify new Job login over Journal Dashboard">
+  <WF>
+    <TaskName ID="878de9bd4f32472dbbb8d5534355a7f6" LineNumber="3" IsSystemTask="False" OnError="Continue" TaskSeq="1" Desc="Action to enter authentication popup" ParentID="">Authentication popup</TaskName>
+    <TaskName ID="62d24ee0c6c7426c8107892d8324420d" LineNumber="" IsSystemTask="True" OnError="Continue" TaskSeq="2" Desc="SystemPurpose" ParentID="">62d24ee0c6c7426c8107892d8324420d</TaskName>
+    <TaskName ID="c6939138a8664ea68cb103f16a2ff15f" LineNumber="6" IsSystemTask="False" OnError="Continue" TaskSeq="3" Desc="Task to store variable values" ParentID="">Variable Store</TaskName>
+    <TaskName ID="67d658ab66f0460b9508a0dc5731edd6" LineNumber="12" IsSystemTask="False" OnError="Continue" TaskSeq="4" Desc="Task used to enter data in Journal login details" ParentID="">Enter Login dashboard details</TaskName>
+    <TaskName ID="2e8d3d13e8fa40b98461fb017d0bb3de" LineNumber="23" IsSystemTask="False" OnError="Continue" TaskSeq="5" Desc="Task to verify alert existance and accept" ParentID="">Alert Handle</TaskName>
+    <TaskName ID="0789017cab3c49908421f37863bb6ecd" LineNumber="26" IsSystemTask="False" OnError="Continue" TaskSeq="6" Desc="Verifying data over Journal Dashboard" ParentID="">Verifying data over Journal Dashboard</TaskName>
+    <TaskName ID="40b686ed215a4a9ab35fcb6f8c3812a3" LineNumber="32" IsSystemTask="False" OnError="Continue" TaskSeq="7" Desc="Verifying data over Admin Dashboard" ParentID="">Verifying data over Admin Dashboard</TaskName>
+  </WF>
+  <TaskInfo>
+    <Task ID="878de9bd4f32472dbbb8d5534355a7f6" TaskSeq="1" LineNumber="3" BreakPoint="" Comment="" IsCommented="False" IsSkipped="" ParentID="">
+      <Step StepId="1" stepSeq="1" ActionId="2e4c801250cf484aaaa8f4495bfd4971" ActionName="WindowsAuthenticationLogin" QClass="com.webdriverfw.Wrappers.General" ObjectId="" ObjectName="" ObjectTypeId="" LineNumber="4" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+    </Task>
+    <Task ID="62d24ee0c6c7426c8107892d8324420d" TaskSeq="2" LineNumber="" BreakPoint="" Comment="" IsCommented="False" IsSkipped="" ParentID="">
+      <Step StepId="1" stepSeq="1" ActionId="d2510f73a1214511bcfe723732cdc09e" ActionName="MaximizeBrowser" QClass="com.webdriverfw.Wrappers.General" ObjectId="" ObjectName="" ObjectTypeId="" LineNumber="5" BreakPoint="" Comment="" IsCommented="" IsSkipped="" ParentID="" />
+    </Task>
+    <Task ID="c6939138a8664ea68cb103f16a2ff15f" TaskSeq="3" LineNumber="6" BreakPoint="" Comment="" IsCommented="False" IsSkipped="" ParentID="">
+      <Step StepId="1" stepSeq="1" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ObjectId="" ObjectName="" ObjectTypeId="" LineNumber="7" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="5" stepSeq="2" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ObjectId="" ObjectName="" ObjectTypeId="" LineNumber="8" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="4" stepSeq="3" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ObjectId="" ObjectName="" ObjectTypeId="" LineNumber="9" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="3" stepSeq="4" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ObjectId="" ObjectName="" ObjectTypeId="" LineNumber="10" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="2" stepSeq="5" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ObjectId="" ObjectName="" ObjectTypeId="" LineNumber="11" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+    </Task>
+    <Task ID="67d658ab66f0460b9508a0dc5731edd6" TaskSeq="4" LineNumber="12" BreakPoint="" Comment="" IsCommented="False" IsSkipped="" ParentID="">
+      <Step StepId="5" stepSeq="1" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" ObjectId="84f8c924aac347719a5fe821ec334a83" ObjectName="ServiceType" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" LineNumber="13" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="4" stepSeq="2" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" ObjectId="779586de377649ddadf46c4b23a0fdeb" ObjectName="JournalTitle" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" LineNumber="14" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="3" stepSeq="3" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" ObjectId="041fcf873f5b4cfa80a4e711d6a15e73" ObjectName="MS_Number" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" LineNumber="15" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="2" stepSeq="4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" ObjectId="81ea25ed3b1a4c41a413fbd3bdb2655b" ObjectName="SpecialInstruction" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" LineNumber="16" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="1" stepSeq="5" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" ObjectId="ee81f523d20d4fbc8353099076e31eab" ObjectName="Associate" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" LineNumber="17" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="8" stepSeq="6" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" ObjectId="3ab304d5899c4a1fa35931798f78b4c2" ObjectName="ReceivedDate" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" LineNumber="18" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="7" stepSeq="7" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ObjectId="ffd49de54578492bb2c3192de27a621b" ObjectName="RD_label" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" LineNumber="19" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="6" stepSeq="8" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ObjectId="" ObjectName="" ObjectTypeId="" LineNumber="20" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="13" stepSeq="9" ActionId="33bf28219c904acfb72ee18c759e6def" ActionName="ClickAndWait" QClass="com.webdriverfw.Wrappers.WebButton" ObjectId="cab4d2a5db0b4f0280cab9fe9e4ad763" ObjectName="btnLogin" ObjectTypeId="2213d41c6e414141abafe619c5f05402" LineNumber="21" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="12" stepSeq="10" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ObjectId="" ObjectName="" ObjectTypeId="" LineNumber="22" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+    </Task>
+    <Task ID="2e8d3d13e8fa40b98461fb017d0bb3de" TaskSeq="5" LineNumber="23" BreakPoint="" Comment="" IsCommented="False" IsSkipped="" ParentID="">
+      <Step StepId="2" stepSeq="1" ActionId="5401f2eb34a745429d8c8d266728f5b3" ActionName="VerifyDialogExistence" QClass="com.webdriverfw.Wrappers.General" ObjectId="" ObjectName="" ObjectTypeId="" LineNumber="24" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="1" stepSeq="2" ActionId="ae1fd25003e643ada6f0187a0e1aaf1f" ActionName="AcceptDialog" QClass="com.webdriverfw.Wrappers.General" ObjectId="" ObjectName="" ObjectTypeId="" LineNumber="25" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+    </Task>
+    <Task ID="0789017cab3c49908421f37863bb6ecd" TaskSeq="6" LineNumber="26" BreakPoint="" Comment="" IsCommented="False" IsSkipped="" ParentID="">
+      <Step StepId="6" stepSeq="1" ActionId="ed7ec59a170e40a2b497841fdf76664a" ActionName="VerifyCellText" QClass="com.webdriverfw.Wrappers.WebTable" ObjectId="b0305d334d9a49368400def148e791f5" ObjectName="ResultTable" ObjectTypeId="49a067ad566a48cd91cfd36fad2c57cd" LineNumber="27" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="5" stepSeq="2" ActionId="ed7ec59a170e40a2b497841fdf76664a" ActionName="VerifyCellText" QClass="com.webdriverfw.Wrappers.WebTable" ObjectId="b0305d334d9a49368400def148e791f5" ObjectName="ResultTable" ObjectTypeId="49a067ad566a48cd91cfd36fad2c57cd" LineNumber="28" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="4" stepSeq="3" ActionId="ed7ec59a170e40a2b497841fdf76664a" ActionName="VerifyCellText" QClass="com.webdriverfw.Wrappers.WebTable" ObjectId="b0305d334d9a49368400def148e791f5" ObjectName="ResultTable" ObjectTypeId="49a067ad566a48cd91cfd36fad2c57cd" LineNumber="29" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="3" stepSeq="4" ActionId="ed7ec59a170e40a2b497841fdf76664a" ActionName="VerifyCellText" QClass="com.webdriverfw.Wrappers.WebTable" ObjectId="b0305d334d9a49368400def148e791f5" ObjectName="ResultTable" ObjectTypeId="49a067ad566a48cd91cfd36fad2c57cd" LineNumber="30" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="2" stepSeq="5" ActionId="ed7ec59a170e40a2b497841fdf76664a" ActionName="VerifyCellText" QClass="com.webdriverfw.Wrappers.WebTable" ObjectId="b0305d334d9a49368400def148e791f5" ObjectName="ResultTable" ObjectTypeId="49a067ad566a48cd91cfd36fad2c57cd" LineNumber="31" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+    </Task>
+    <Task ID="40b686ed215a4a9ab35fcb6f8c3812a3" TaskSeq="7" LineNumber="32" BreakPoint="" Comment="" IsCommented="False" IsSkipped="" ParentID="">
+      <Step StepId="8" stepSeq="1" ActionId="bb49d1ead632466aa02b76cdc17c9cce" ActionName="OpenURL" QClass="com.webdriverfw.Wrappers.General" ObjectId="" ObjectName="" ObjectTypeId="" LineNumber="33" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="7" stepSeq="2" ActionId="2e4c801250cf484aaaa8f4495bfd4971" ActionName="WindowsAuthenticationLogin" QClass="com.webdriverfw.Wrappers.General" ObjectId="" ObjectName="" ObjectTypeId="" LineNumber="34" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="6" stepSeq="3" ActionId="89e7f7aac8934fd2b78a676212ad92d7" ActionName="VerifyDataExistenceInColumn" QClass="com.webdriverfw.Wrappers.WebTable" ObjectId="96e5e740f8864836949cfc02ea3f5a1f" ObjectName="AdminDashboard_Table" ObjectTypeId="49a067ad566a48cd91cfd36fad2c57cd" LineNumber="35" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="5" stepSeq="4" ActionId="89e7f7aac8934fd2b78a676212ad92d7" ActionName="VerifyDataExistenceInColumn" QClass="com.webdriverfw.Wrappers.WebTable" ObjectId="96e5e740f8864836949cfc02ea3f5a1f" ObjectName="AdminDashboard_Table" ObjectTypeId="49a067ad566a48cd91cfd36fad2c57cd" LineNumber="36" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="4" stepSeq="5" ActionId="89e7f7aac8934fd2b78a676212ad92d7" ActionName="VerifyDataExistenceInColumn" QClass="com.webdriverfw.Wrappers.WebTable" ObjectId="96e5e740f8864836949cfc02ea3f5a1f" ObjectName="AdminDashboard_Table" ObjectTypeId="49a067ad566a48cd91cfd36fad2c57cd" LineNumber="37" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+      <Step StepId="3" stepSeq="6" ActionId="89e7f7aac8934fd2b78a676212ad92d7" ActionName="VerifyDataExistenceInColumn" QClass="com.webdriverfw.Wrappers.WebTable" ObjectId="96e5e740f8864836949cfc02ea3f5a1f" ObjectName="AdminDashboard_Table" ObjectTypeId="49a067ad566a48cd91cfd36fad2c57cd" LineNumber="38" BreakPoint="" Comment="" IsCommented="False" IsSkipped="false" ParentID="" />
+    </Task>
+  </TaskInfo>
+  <Data>
+    <TCDataSet Iteration="1" Mark="True" TCDataSetTag="">
+      <Task ID="878de9bd4f32472dbbb8d5534355a7f6" TaskSeq="1" Name="Authentication popup">
+        <TaskDataSet Iteration="1">
+          <Step StepId="1">
+            <Param ParamSeq="1" Parameterized="0" Name="&quot;{Login_Dashboard_URL}&quot;">{Login_Dashboard_URL}</Param>
+            <Param ParamSeq="2" Parameterized="0" Name="&quot;{Username}&quot;">{Username}</Param>
+            <Param ParamSeq="3" Parameterized="0" Name="&quot;{Password}&quot;">{Password}</Param>
+          </Step>
+        </TaskDataSet>
+      </Task>
+      <Task ID="62d24ee0c6c7426c8107892d8324420d" TaskSeq="2">
+        <TaskDataSet Iteration="1">
+          <Step StepId="1" />
+        </TaskDataSet>
+      </Task>
+      <Task ID="c6939138a8664ea68cb103f16a2ff15f" TaskSeq="3" Name="Variable Store">
+        <TaskDataSet Iteration="1">
+          <Step StepId="1">
+            <Param ParamSeq="1" Parameterized="1" Name="ServiceType_Value" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Param ParamSeq="2" Parameterized="1" Name="STData" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Step>
+          <Step StepId="5">
+            <Param ParamSeq="1" Parameterized="1" Name="JournalType_Value" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Param ParamSeq="2" Parameterized="1" Name="JTData" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Step>
+          <Step StepId="4">
+            <Param ParamSeq="1" Parameterized="1" Name="MSNumber_Value" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Param ParamSeq="2" Parameterized="1" Name="MSIDdata" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Step>
+          <Step StepId="3">
+            <Param ParamSeq="1" Parameterized="1" Name="SpecialInstruction_Value" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Param ParamSeq="2" Parameterized="1" Name="SIData" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Step>
+          <Step StepId="2">
+            <Param ParamSeq="1" Parameterized="1" Name="Associate_Value" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Param ParamSeq="2" Parameterized="1" Name="AssosiateData" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Step>
+        </TaskDataSet>
+      </Task>
+      <Task ID="67d658ab66f0460b9508a0dc5731edd6" TaskSeq="4" Name="Enter Login dashboard details">
+        <TaskDataSet Iteration="1">
+          <Step StepId="5">
+            <Param ParamSeq="1" Parameterized="0" Name="&quot;{ServiceType_Value}&quot;">{ServiceType_Value}</Param>
+          </Step>
+          <Step StepId="4">
+            <Param ParamSeq="1" Parameterized="0" Name="&quot;{JournalType_Value}&quot;">{JournalType_Value}</Param>
+          </Step>
+          <Step StepId="3">
+            <Param ParamSeq="1" Parameterized="0" Name="&quot;{MSNumber_Value}&quot;">{MSNumber_Value}</Param>
+          </Step>
+          <Step StepId="2">
+            <Param ParamSeq="1" Parameterized="0" Name="&quot;{SpecialInstruction_Value}&quot;">{SpecialInstruction_Value}</Param>
+          </Step>
+          <Step StepId="1">
+            <Param ParamSeq="1" Parameterized="0" Name="&quot;{Associate_Value}&quot;">{Associate_Value}</Param>
+          </Step>
+          <Step StepId="8">
+            <Param ParamSeq="1" Parameterized="1" Name="RecievedDate" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Step>
+          <Step StepId="7" />
+          <Step StepId="6">
+            <Param ParamSeq="1" Parameterized="0" Name="&quot;1&quot;">1</Param>
+          </Step>
+          <Step StepId="13" />
+          <Step StepId="12">
+            <Param ParamSeq="1" Parameterized="0" Name="&quot;2&quot;">2</Param>
+          </Step>
+        </TaskDataSet>
+      </Task>
+      <Task ID="2e8d3d13e8fa40b98461fb017d0bb3de" TaskSeq="5" Name="Alert Handle">
+        <TaskDataSet Iteration="1">
+          <Step StepId="2">
+            <Param ParamSeq="1" Parameterized="1" Name="existence" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Step>
+          <Step StepId="1" />
+        </TaskDataSet>
+      </Task>
+      <Task ID="0789017cab3c49908421f37863bb6ecd" TaskSeq="6" Name="Verifying data over Journal Dashboard">
+        <TaskDataSet Iteration="1">
+          <Step StepId="6">
+            <Param ParamSeq="1" Parameterized="0" Name="&quot;{MSNumber_Value}&quot;">{MSNumber_Value}</Param>
+            <Param ParamSeq="2" Parameterized="0" Name="&quot;2&quot;">2</Param>
+            <Param ParamSeq="3" Parameterized="0" Name="&quot;1&quot;">1</Param>
+          </Step>
+          <Step StepId="5">
+            <Param ParamSeq="1" Parameterized="0" Name="&quot;{JournalType_Value}&quot;">{JournalType_Value}</Param>
+            <Param ParamSeq="2" Parameterized="0" Name="&quot;2&quot;">2</Param>
+            <Param ParamSeq="3" Parameterized="0" Name="&quot;3&quot;">3</Param>
+          </Step>
+          <Step StepId="4">
+            <Param ParamSeq="1" Parameterized="0" Name="&quot;{Associate_Value}&quot;">{Associate_Value}</Param>
+            <Param ParamSeq="2" Parameterized="0" Name="&quot;2&quot;">2</Param>
+            <Param ParamSeq="3" Parameterized="0" Name="&quot;4&quot;">4</Param>
+          </Step>
+          <Step StepId="3">
+            <Param ParamSeq="1" Parameterized="0" Name="&quot;{ServiceType_Value}&quot;">{ServiceType_Value}</Param>
+            <Param ParamSeq="2" Parameterized="0" Name="&quot;2&quot;">2</Param>
+            <Param ParamSeq="3" Parameterized="0" Name="&quot;5&quot;">5</Param>
+          </Step>
+          <Step StepId="2">
+            <Param ParamSeq="1" Parameterized="0" Name="&quot;{SpecialInstruction_Value}&quot;">{SpecialInstruction_Value}</Param>
+            <Param ParamSeq="2" Parameterized="0" Name="&quot;2&quot;">2</Param>
+            <Param ParamSeq="3" Parameterized="0" Name="&quot;6&quot;">6</Param>
+          </Step>
+        </TaskDataSet>
+      </Task>
+      <Task ID="40b686ed215a4a9ab35fcb6f8c3812a3" TaskSeq="7" Name="Verifying data over Admin Dashboard">
+        <TaskDataSet Iteration="1">
+          <Step StepId="8">
+            <Param ParamSeq="1" Parameterized="0" Name="&quot;http://192.168.84.68/manuscriptscreening/AdminDashBoard/AdminDashBoard&quot;">http://192.168.84.68/manuscriptscreening/AdminDashBoard/AdminDashBoard</Param>
+          </Step>
+          <Step StepId="7">
+            <Param ParamSeq="1" Parameterized="0" Name="&quot;http://192.168.84.68/manuscriptscreening/AdminDashBoard/AdminDashBoard&quot;">http://192.168.84.68/manuscriptscreening/AdminDashBoard/AdminDashBoard</Param>
+            <Param ParamSeq="2" Parameterized="0" Name="&quot;{Usename}&quot;">{Usename}</Param>
+            <Param ParamSeq="3" Parameterized="0" Name="&quot;{Password}&quot;">{Password}</Param>
+          </Step>
+          <Step StepId="6">
+            <Param ParamSeq="1" Parameterized="1" Name="MSID" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Param ParamSeq="2" Parameterized="0" Name="&quot;{MSNumber_Value}&quot;">{MSNumber_Value}</Param>
+            <Param ParamSeq="3" Parameterized="1" Name="existence" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Step>
+          <Step StepId="5">
+            <Param ParamSeq="1" Parameterized="1" Name="Service Type" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Param ParamSeq="2" Parameterized="0" Name="&quot;{ServiceType_Value}&quot;">{ServiceType_Value}</Param>
+            <Param ParamSeq="3" Parameterized="1" Name="existence" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Step>
+          <Step StepId="4">
+            <Param ParamSeq="1" Parameterized="1" Name="Journal Type" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Param ParamSeq="2" Parameterized="0" Name="&quot;{JournalType_Value}&quot;">{JournalType_Value}</Param>
+            <Param ParamSeq="3" Parameterized="1" Name="existence" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Step>
+          <Step StepId="3">
+            <Param ParamSeq="1" Parameterized="1" Name="Assosiate Name" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Param ParamSeq="2" Parameterized="0" Name="&quot;{Associate_Value}&quot;">{Associate_Value}</Param>
+            <Param ParamSeq="3" Parameterized="1" Name="existence" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Step>
+        </TaskDataSet>
+      </Task>
+    </TCDataSet>
+  </Data>
+</ExecutionTC>
